@@ -19,5 +19,13 @@
             "weight": 2,
             "contentDir": "content/en-EU"
         }
+    },
+
+    "markup": {
+        "goldmark": {
+            "renderer": {
+                "unsafe": true
+            }
+        }
     }
 }

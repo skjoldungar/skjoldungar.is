@@ -1,0 +1,7 @@
+<div {{ with .Get "class" }} class="grid {{ . }}" {{ end }}>
+    {{ range split .Inner "<--->" }}
+        <div>
+            {{ . | markdownify }}
+        </div>
+    {{ end }}
+</div>
