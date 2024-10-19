@@ -9,7 +9,7 @@
             "languageName": "Íslenska",
             "title": "Skátafélagið Skjöldungar",
             "weight": 1,
-            "contentDir": "content/is-is"
+            "contentDir": "content/is-IS"
         },
 
         "en": {
@@ -17,7 +17,7 @@
             "languageName": "English",
             "title": "Skjöldungar scout troop",
             "weight": 2,
-            "contentDir": "content/en-eu"
+            "contentDir": "content/en-EU"
         }
     }
 }
