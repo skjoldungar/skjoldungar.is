@@ -1,2 +1,9 @@
 node_modules/
 static/css/tw.css
+public/img
+public/en
+public/is
+public/manifest
+public/favicon.ico
+public/index.html
+public/sitemap.xml
