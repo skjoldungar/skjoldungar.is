@@ -1,0 +1,23 @@
+{
+    "baseURL": "/",
+    "defaultContentLanguage": "is",
+    "defaultContentLanguageInSubdir": true,
+
+    "languages": {
+        "is": {
+            "languageCode": "is-IS",
+            "languageName": "Íslenska",
+            "title": "Skátafélagið Skjöldungar",
+            "weight": 1,
+            "contentDir": "content/is-is"
+        },
+
+        "en": {
+            "languageCode": "en-EU",
+            "languageName": "English",
+            "title": "Skjöldungar scout troop",
+            "weight": 2,
+            "contentDir": "content/en-eu"
+        }
+    }
+}
