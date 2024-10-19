@@ -1,6 +1,5 @@
 ---
 title: "Lög Skátafélagsins Skjöldunga"
-slug: "laws-of-skjoldungar"
 subtitle: "Samþykkt á aðalfundi 29. febrúar 2024"
 date: 2024-10-19T19:12:36Z
 draft: false
