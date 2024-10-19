@@ -1,21 +1,33 @@
 {{ define "main" }}
 
 <div
-    style="
-        background-image: url(&quot;https://skjoldungar.is/wp-content/uploads/2020/02/Kindur300px.jpg&quot;);
-    "
+    {{ if isset .Params "background" }}
+        style="background-image: url(&quot;{{ .Params.Background }}&quot;);"
+    {{ else }}
+        style="background-image: url(&quot;https://skjoldungar.is/wp-content/uploads/2020/02/Kindur300px.jpg&quot;);"
+    {{ end }}
     class="bg-cover bg-center"
 >
-    <div class="flex h-[26rem] items-center bg-black/[55%]">
+    <div class="flex h-[14rem] items-center bg-black/[55%]">
         <div class="container">
             <h1 class="text-2xl font-bold uppercase text-white md:text-3xl">
-                Um Skjöldunga
+                {{ .Title }}
             </h1>
             <p class="mt-4 font-medium text-gray-100 md:text-lg">
-                Öflugt skátastarf í 70 ár.
+                {{ if isset .Params "subtitle" }}
+                    {{ .Params.Subtitle }}
+                {{ else }}
+                    Öflugt skátastarf í 70 ár.
+                {{ end }}
             </p>
         </div>
     </div>
 </div>
 
-{{ .Content }} {{ end }}
+<div id="hugo-single-content" class="container py-16">
+    <div class="prose max-w-full">
+        {{ .Content }}
+    </div>
+</div>
+
+{{ end }}

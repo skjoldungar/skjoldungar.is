@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container {
-    @apply mx-auto max-w-screen-2xl px-8;
+    @apply mx-auto max-w-screen-xl px-8;
 }
 
 nav a,
@@ -55,4 +55,12 @@ iframe {
 .dropdown-menu button,
 .dropdown-menu a {
     @apply block w-full px-4 py-3 text-left !text-sm text-slate-800 hover:bg-gray-50 focus:bg-gray-50 focus:outline-none;
+}
+
+.prose h1 {
+    @apply text-2xl font-bold uppercase text-black md:text-3xl;
+}
+
+.prose h2 {
+    @apply text-2xl font-semibold text-gray-800;
 }

@@ -2,7 +2,7 @@
     <div class="container py-16">
         <div class="flex flex-col gap-12 md:flex-row md:gap-24">
             <div class="flex flex-shrink-0 gap-8">
-                <img src="/img/crest-legacy.png" class="h-32" />
+                <img src="/img/logo.svg" class="h-32" />
                 <div>
                     <p class="text-sm font-medium text-white">
                         Skátafélagið Skjöldungar
@@ -173,20 +173,23 @@
             </div>
         </div>
         <div
-            class="flex flex-col gap-2 pt-8 md:flex-row md:items-center md:justify-between"
+            class="flex flex-col gap-2 pt-8"
         >
             <p class="text-sm font-medium text-gray-100">
                 &copy; 1955 - {{ dateFormat "2006" now }} Skátafélagið
                 Skjöldungar
             </p>
             <p class="text-xs font-medium text-gray-100">
+                <span class="opacity-50">
+                    Umfangsmikil vefhönnun í boði
+                </span>
                 <a
                     href="https://kjartan.studio/"
                     target="_blank"
                     rel="noreferrer"
-                    class="inline-flex items-center gap-0.5 opacity-[50%] transition duration-150 hover:opacity-[75%]"
+                    class="inline-flex items-center gap-0.5 transition duration-150 opacity-50 hover:opacity-75"
                 >
-                    Umfangsmikil vefhönnun í boði kjartan.studio
+                    kjartan.studio
                     <svg
                         class="h-3 w-3"
                         data-slot="icon"
@@ -222,3 +225,17 @@
     src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"
 ></script>
 <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+<script>
+    const btn = document.querySelector('#mobile-nav-toggle');
+    const menu = document.querySelector('#mobile-nav');
+
+    btn.addEventListener('click', () => {
+        if (btn.dataset.toggled === "false") {
+            btn.dataset.toggled = "true";
+            menu.dataset.open = "true";
+        } else {
+            btn.dataset.toggled = "false";
+            menu.dataset.open = "false";
+        }
+    });
+</script>

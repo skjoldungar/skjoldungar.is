@@ -1,1 +1,1 @@
-hugo server -p 1313 --noHTTPCache
+hugo server --bind 0.0.0.0 -p 1313 --noHTTPCache
