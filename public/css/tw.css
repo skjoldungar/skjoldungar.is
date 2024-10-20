@@ -1223,6 +1223,10 @@ video {
   height: 7rem;
 }
 
+.h-\[16rem\] {
+  height: 16rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1269,6 +1273,10 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1535,6 +1543,14 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.\[tel\:\+3545686802\] {
+  tel: +3545686802;
+}
+
+.\[tel\:\+3548216802\] {
+  tel: +3548216802;
 }
 
 .container {
