@@ -9,7 +9,52 @@
             "languageName": "Íslenska",
             "title": "Skátafélagið Skjöldungar",
             "weight": 1,
-            "contentDir": "content/is-IS"
+            "contentDir": "content/is-IS",
+
+            "menus": {
+                "main": [
+                    {
+                        "name": "Um Skjöldunga",
+                        "pageRef": "/is/um-skjoldunga",
+                        "weight": 10
+                    },
+                    {
+                        "name": "Starfsáætlun",
+                        "pageRef": "/is/starfssaetlun",
+                        "weight": 20
+                    },
+                    {
+                        "name": "Útilífsskólinn",
+                        "pageRef": "/is/utilifsskoli",
+                        "weight": 30
+                    },
+                    {
+                        "name": "Skátaskálar",
+                        "pageRef": "/is/skalar",
+                        "weight": 40
+                    },
+                    {
+                        "name": "Kútur",
+                        "pageRef": "/is/kutur",
+                        "weight": 41,
+                        "parent": "Skátaskálar"
+                    },
+                    {
+                        "name": "Hleiðra",
+                        "pageRef": "/is/hleidra",
+                        "weight": 42,
+                        "parent": "Skátaskálar"
+                    },
+                    {
+                        "name": "Skráning",
+                        "url": "https://www.sportabler.com/shop/skjoldungar",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 50
+                    }
+                ]
+            }
         },
 
         "en": {
@@ -17,7 +62,52 @@
             "languageName": "English",
             "title": "Skjöldungar scout troop",
             "weight": 2,
-            "contentDir": "content/en-EU"
+            "contentDir": "content/en-EU",
+
+            "menus": {
+                "main": [
+                    {
+                        "name": "About Skjöldungar",
+                        "pageRef": "/en/about-skjoldungar",
+                        "weight": 10
+                    },
+                    {
+                        "name": "Annual plan",
+                        "pageRef": "/en/annual-plan",
+                        "weight": 20
+                    },
+                    {
+                        "name": "Outdoor school",
+                        "pageRef": "/en/outdoor-school",
+                        "weight": 30
+                    },
+                    {
+                        "name": "Cabins",
+                        "pageRef": "/en/cabins",
+                        "weight": 40
+                    },
+                    {
+                        "name": "Kútur",
+                        "pageRef": "/en/kutur",
+                        "weight": 41,
+                        "parent": "Cabins"
+                    },
+                    {
+                        "name": "Hleiðra",
+                        "pageRef": "/en/hleidra",
+                        "weight": 42,
+                        "parent": "Cabins"
+                    },
+                    {
+                        "name": "Registration",
+                        "url": "https://www.sportabler.com/shop/skjoldungar",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 50
+                    }
+                ]
+            }
         }
     },
 

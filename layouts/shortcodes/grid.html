@@ -1,4 +1,4 @@
-<div {{ with .Get "class" }} class="grid {{ . }}" {{ end }}>
+<div {{ with .Get "class" }} class="grid gap-8 {{ . }}" {{ end }}>
     {{ range split .Inner "<--->" }}
         <div>
             {{ . | markdownify }}

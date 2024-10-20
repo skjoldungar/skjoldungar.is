@@ -226,18 +226,31 @@
 ></script>
 <script src="https://unpkg.com/htmx.org@1.9.12"></script>
 <script>
-    const btn = document.querySelector('#mobile-nav-toggle');
-    const menu = document.querySelector('#mobile-nav');
+    (() => {
+        console.log('Init 1');
 
-    document.querySelector('#mobile-nav').style.display = "flex";
+        const btn = document.querySelector('#mobile-nav-toggle');
 
-    btn.addEventListener('click', () => {
-        if (btn.dataset.toggled === "false") {
-            btn.dataset.toggled = "true";
-            menu.dataset.open = "true";
-        } else {
-            btn.dataset.toggled = "false";
-            menu.dataset.open = "false";
-        }
-    });
+        console.log('Init 2');
+
+        const menu = document.querySelector('#mobile-nav');
+
+        console.log('Init 3');
+
+        document.querySelector('#mobile-nav').style.display = "flex";
+
+        console.log('Init 4');
+
+        btn.addEventListener('click', () => {
+            console.log('Receive 1');
+
+            if (btn.dataset.toggled === "false") {
+                btn.dataset.toggled = "true";
+                menu.dataset.open = "true";
+            } else {
+                btn.dataset.toggled = "false";
+                menu.dataset.open = "false";
+            }
+        });
+    })();
 </script>

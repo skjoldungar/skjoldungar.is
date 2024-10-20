@@ -1223,8 +1223,8 @@ video {
   height: 7rem;
 }
 
-.h-\[16rem\] {
-  height: 16rem;
+.h-\[40px\] {
+  height: 40px;
 }
 
 .min-h-screen {
@@ -1267,16 +1267,12 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1437,6 +1433,18 @@ video {
   padding-top: 2rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1543,14 +1551,6 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.\[tel\:\+3545686802\] {
-  tel: +3545686802;
-}
-
-.\[tel\:\+3548216802\] {
-  tel: +3548216802;
 }
 
 .container {
@@ -1754,9 +1754,39 @@ iframe {
   display: none;
 }
 
+@media (min-width: 400px) {
+  .min-\[400px\]\:flex {
+    display: flex;
+  }
+}
+
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:h-14 {
+    height: 3.5rem;
+  }
+
+  .sm\:h-16 {
+    height: 4rem;
+  }
+
+  .sm\:h-20 {
+    height: 5rem;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
   }
 }
 
@@ -1777,12 +1807,24 @@ iframe {
     height: auto;
   }
 
+  .md\:h-14 {
+    height: 3.5rem;
+  }
+
+  .md\:h-20 {
+    height: 5rem;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -1817,7 +1859,25 @@ iframe {
   }
 }
 
+@media (min-width: 900px) {
+  .min-\[900px\]\:flex {
+    display: flex;
+  }
+
+  .min-\[900px\]\:hidden {
+    display: none;
+  }
+
+  .min-\[900px\]\:h-16 {
+    height: 4rem;
+  }
+}
+
 @media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }

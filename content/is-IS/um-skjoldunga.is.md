@@ -25,7 +25,7 @@ Systkinaafsláttur er 10% sem kemur sjálfkrafa inn. Áfram er hægt að nota Fr
 
 **Til þess að auðvelda þessa breytingu viljum við biðja forráðafólk að vera í sambandi ef þetta kemur sér mjög illa.**
 
-{{< grid class="grid-cols-2 gap-8" >}}
+{{< grid class="grid-cols-1 md:grid-cols-2" >}}
 
 ## Bankaupplýsingar
 

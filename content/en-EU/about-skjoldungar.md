@@ -28,7 +28,7 @@ Systkinaafsláttur er 10% sem kemur sjálfkrafa inn. Áfram er hægt að nota Fr
 
 **To ease with this change in fee scheduling, we kindly ask parents/guardians to be in contact with us if this fee schedule is not desirable.**
 
-{{< grid class="grid-cols-2 gap-8" >}}
+{{< grid class="grid-cols-1 md:grid-cols-2" >}}
 
 ## Bank account information
 
@@ -65,7 +65,7 @@ Phone numbers:
 
 ## Related material
 
--   [Information about board members and patrol leaders](/is/sjalfbodaskatar)
+-   [Information about board members and patrol leaders](/en/volunteer-scouts)
 -   [Action plan of the city of Reykjavík in matters of equality 2015-2019 (Icelandic)](https://reykjavik.is/sites/default/files/ymis_skjol/skjol_utgefid_efni/adgerdaaaetlun_reykjavikurborgar_i_jafnrettismalum_2015-2019.pdf)
 -   [Reykjavík City's harassment prevention strategy in matters of youth 2014-2019 (Icelandic)](https://reykjavik.is/sites/default/files/forvarnastefna_reykjavikur_net.pdf)
 

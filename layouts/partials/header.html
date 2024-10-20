@@ -44,7 +44,7 @@
             <div class="flex gap-4">
                 <a
                     href="tel:+3545686802"
-                    class="flex items-center gap-1 text-[0.7rem] font-medium text-white hover:opacity-80"
+                    class="hidden min-[400px]:flex items-center gap-1 text-[0.7rem] font-medium text-white hover:opacity-80"
                 >
                     <svg
                         class="h-3.5 w-3.5"
@@ -93,47 +93,52 @@
         <div class="container md:py-8">
             <div class="flex items-center justify-between h-[7rem] md:h-auto">
                 <a href="/{{ site.Language }}">
-                    <img src="/img/logotype.svg" class="h-14 md:h-16 " />
+                    <img src="/img/logotype.svg" class="h-14 min-[900px]:h-16 " />
                 </a>
-                <nav class="hidden items-center gap-8 md:flex">
-                    <a href="/um-skjoldunga">Um Skjöldunga</a>
-                    <a href="/starfsaaetlun">Starfsáætlun</a>
-                    <a href="/utilifsskoli">Útilífsskólinn</a>
-                    <div class="dropdown">
-                        <button
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            class="flex items-center gap-1"
-                        >
-                            Skátaskálar
-                            <svg
-                                class="h-4 w-4 text-gray-400"
-                                data-slot="icon"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"
-                                aria-hidden="true"
-                            >
-                                <path
-                                    clip-rule="evenodd"
-                                    fill-rule="evenodd"
-                                    d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z"
-                                ></path>
-                            </svg>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li>
-                                <a class="dropdown-item" href="#"> Kútur </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"> Hleiðra </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="#">Skráning</a>
+                
+                <nav class="hidden items-center gap-8 min-[900px]:flex">
+                    {{- range site.Menus.main }}
+                        {{ if eq .Params.Rel "external" }}
+                            <a href="{{ .URL }}" target="_blank" rel="noreferrer">{{ .Name }}</a>
+                        {{ else if .Children }}
+                            <div class="dropdown">
+                                <button
+                                    type="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    class="flex items-center gap-1"
+                                >
+                                    {{ .Name }}
+                                    <svg
+                                        class="h-4 w-4 text-gray-400"
+                                        data-slot="icon"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            clip-rule="evenodd"
+                                            fill-rule="evenodd"
+                                            d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z"
+                                        ></path>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    {{- range .Children }}
+                                        <li>
+                                            <a class="dropdown-item" href="{{ .PageRef }}"> {{ .Name }} </a>
+                                        </li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+                        {{ else }}
+                            <a href="{{ .PageRef }}">{{ .Name }}</a>
+                        {{ end }}
+                    {{ end }}
                 </nav>
-                <button class="md:hidden text-gray-700 group" id="mobile-nav-toggle" data-toggled="false">
+
+                <button class="min-[900px]:hidden text-gray-700 group" id="mobile-nav-toggle" data-toggled="false">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                         class="size-8 group-data-[toggled=true]:hidden">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -164,6 +169,6 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
         </button>
-        <a href="#">Skráning</a>
+        <a href="https://www.sportabler.com/shop/skjoldungar" target="_blank" rel="noreferrer">Skráning</a>
     </nav>
 </header>
