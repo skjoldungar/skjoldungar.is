@@ -21,7 +21,9 @@ Innifalið í árgjaldi er vikuleg dagskrá, sveitaútilegur, skátaklútur, mer
 
 ### Systkinaafsláttur
 
-Systkinaafsláttur er 10% sem kemur sjálfkrafa inn. Áfram er hægt að nota Frístundakort Reykjavíkurborgar til að greiða árgjald. Einnig er hægt að skipta greiðslum. Til þess að auðvelda þessa breytingu vilju við biðja forráðafólk að vera í sambandi ef þetta kemur sér mjög illa.
+Systkinaafsláttur er 10% sem kemur sjálfkrafa inn. Áfram er hægt að nota Frístundakort Reykjavíkurborgar til að greiða árgjald. Einnig er hægt að skipta greiðslum.
+
+**Til þess að auðvelda þessa breytingu viljum við biðja forráðafólk að vera í sambandi ef þetta kemur sér mjög illa.**
 
 {{< grid class="grid-cols-2 gap-8" >}}
 
