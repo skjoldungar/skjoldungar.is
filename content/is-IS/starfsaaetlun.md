@@ -8,7 +8,7 @@ draft: false
 
 ## Aldursbil
 
-{{< grid class="grid-cols-3 gap-8" >}}
+{{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8" >}}
 
 **Drekaskátar 7 – 9 ára**
 
