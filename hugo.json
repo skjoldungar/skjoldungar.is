@@ -58,6 +58,105 @@
                         "pageRef": "/en",
                         "weight": 100
                     }
+                ],
+                
+                "footer_col1": [
+                    {
+                        "name": "Hvað gera skátarnir?",
+                        "pageRef": "/is/hvad-gera-skatarnir",
+                        "weight": 10
+                    },
+                    {
+                        "name": "Markmið skátastarfsins",
+                        "pageRef": "/is/markmid",
+                        "weight": 20
+                    },
+                    {
+                        "name": "Skátaaðferðin",
+                        "pageRef": "/is/skataadferdin",
+                        "weight": 30
+                    },
+                    {
+                        "name": "Útbúnaður",
+                        "pageRef": "/is/utbunadur",
+                        "weight": 40
+                    },
+                    {
+                        "name": "Bandalag Íslenskra Skáta (BÍS)",
+                        "url": "https://skatarnir.is/",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 50
+                    }
+                ],
+                "footer_col2": [
+                    {
+                        "name": "Kútur",
+                        "pageRef": "/is/kutur",
+                        "weight": 10
+                    },
+                    {
+                        "name": "Hleiðra",
+                        "pageRef": "/is/hleidra",
+                        "weight": 20
+                    },
+                    {
+                        "name": "Úlfljótsvatn",
+                        "pageRef": "/is/ulfljotsvatn",
+                        "weight": 30
+                    }
+                ],
+                "footer_col3": [
+                    {
+                        "name": "Um Skjöldunga",
+                        "pageRef": "/is/um-skjoldunga",
+                        "weight": 10
+                    },
+                    {
+                        "name": "Lög Skjöldunga",
+                        "pageRef": "/is/log-skjoldunga",
+                        "weight": 20
+                    },
+                    {
+                        "name": "Skjöldungasaga",
+                        "pageRef": "/is/skjoldungasaga",
+                        "weight": 30
+                    },
+                    {
+                        "name": "Starfsáætlun",
+                        "pageRef": "/is/starfsaaetlun",
+                        "weight": 40
+                    },
+                    {
+                        "name": "Stjórn & foringjar",
+                        "pageRef": "/is/sjalfbodaskatar",
+                        "weight": 50
+                    },
+                    {
+                        "name": "Skráning",
+                        "url": "https://www.sportabler.com/shop/skjoldungar",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 60
+                    },
+                    {
+                        "name": "Instagram",
+                        "url": "https://www.instagram.com/skjoldungar/",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 70
+                    },
+                    {
+                        "name": "Facebook",
+                        "url": "https://www.facebook.com/skatafelagidskjoldungar",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 80
+                    }
                 ]
             }
         },

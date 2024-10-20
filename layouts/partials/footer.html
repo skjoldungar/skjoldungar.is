@@ -60,37 +60,25 @@
                 <div>
                     <p class="font-medium text-white">Skátastarf</p>
                     <div class="link-column">
-                        <div>
-                            <a href="#">Hvað gera skátarnir?</a>
-                        </div>
-                        <div>
-                            <a href="#">Markmið skátastarfsins</a>
-                        </div>
-                        <div>
-                            <a href="#">Skátaaðferðin</a>
-                        </div>
-                        <div>
-                            <a href="#">Útbúnaður</a>
-                        </div>
-                        <div>
-                            <a href="#" class="external">
-                                Bandalag Íslenskra Skáta (BÍS)
-                                <svg
-                                    class="mt-[1px] h-4 w-4"
-                                    data-slot="icon"
-                                    fill="currentColor"
-                                    viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true"
-                                >
-                                    <path
-                                        clip-rule="evenodd"
-                                        fill-rule="evenodd"
-                                        d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z"
-                                    ></path>
-                                </svg>
-                            </a>
-                        </div>
+                        {{- range site.Menus.footer_col1 }}
+                            {{ if eq .Params.Rel "external" }}
+                                <div>
+                                    <a href="{{ .URL }}" class="external">
+                                        {{ .Name }}
+                                        <svg class="mt-[1px] h-4 w-4" data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path clip-rule="evenodd" fill-rule="evenodd"
+                                                d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            {{ else }}
+                                <div>
+                                    <a href="{{ .PageRef }}">{{ .Name }}</a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
                     </div>
                 </div>
                 <div>
@@ -98,76 +86,49 @@
                         Skálar og staðsetningar
                     </p>
                     <div class="link-column">
-                        <div>
-                            <a href="#">Kútur</a>
-                        </div>
-                        <div>
-                            <a href="#">Hleiðra</a>
-                        </div>
-                        <div>
-                            <a href="#">Úlfljótsvatn</a>
-                        </div>
+                        {{- range site.Menus.footer_col2 }}
+                            {{ if eq .Params.Rel "external" }}
+                                <div>
+                                    <a href="{{ .URL }}" class="external">
+                                        {{ .Name }}
+                                        <svg class="mt-[1px] h-4 w-4" data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path clip-rule="evenodd" fill-rule="evenodd"
+                                                d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            {{ else }}
+                                <div>
+                                    <a href="{{ .PageRef }}">{{ .Name }}</a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
                     </div>
                 </div>
                 <div>
                     <p class="font-medium text-white">Skjöldungar</p>
                     <div class="link-column">
-                        <div>
-                            <a href="#">Um Skjöldunga</a>
-                        </div>
-                        <div>
-                            <a href="#">Lög Skjöldunga</a>
-                        </div>
-                        <div>
-                            <a href="#">Skjöldungasaga</a>
-                        </div>
-                        <div>
-                            <a href="#">Starfsáætlun</a>
-                        </div>
-                        <div>
-                            <a href="#">Stjórn & foringjar</a>
-                        </div>
-                        <div>
-                            <a href="#">Skráning</a>
-                        </div>
-                        <div>
-                            <a href="#" class="external">
-                                Instagram
-                                <svg
-                                    class="mt-[1px] h-4 w-4"
-                                    data-slot="icon"
-                                    fill="currentColor"
-                                    viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true"
-                                >
-                                    <path
-                                        clip-rule="evenodd"
-                                        fill-rule="evenodd"
-                                        d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z"
-                                    ></path>
-                                </svg>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#" class="external">
-                                Facebook
-                                <svg
-                                    class="mt-[1px] h-4 w-4"
-                                    data-slot="icon"
-                                    fill="currentColor"
-                                    viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true"
-                                >
-                                    <path
-                                        clip-rule="evenodd"
-                                        fill-rule="evenodd"
-                                        d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z"
-                                    ></path>
-                                </svg>
-                            </a>
-                        </div>
+                        {{- range site.Menus.footer_col3 }}
+                            {{ if eq .Params.Rel "external" }}
+                                <div>
+                                    <a href="{{ .URL }}" class="external">
+                                        {{ .Name }}
+                                        <svg class="mt-[1px] h-4 w-4" data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path clip-rule="evenodd" fill-rule="evenodd"
+                                                d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            {{ else }}
+                                <div>
+                                    <a href="{{ .PageRef }}">{{ .Name }}</a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
                     </div>
                 </div>
             </div>
