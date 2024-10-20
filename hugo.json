@@ -215,6 +215,105 @@
                         "pageRef": "/is",
                         "weight": 100
                     }
+                ],
+
+                "footer_col1": [
+                    {
+                        "name": "What do the scouts do?",
+                        "pageRef": "/en/what-do-the-scouts-do",
+                        "weight": 10
+                    },
+                    {
+                        "name": "Goals of scouting",
+                        "pageRef": "/en/goals",
+                        "weight": 20
+                    },
+                    {
+                        "name": "The scouting method",
+                        "pageRef": "/en/methodology",
+                        "weight": 30
+                    },
+                    {
+                        "name": "Equipment",
+                        "pageRef": "/en/equipment",
+                        "weight": 40
+                    },
+                    {
+                        "name": "Alliance of Icelandic scouts (BÍS)",
+                        "url": "https://skatarnir.is/",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 50
+                    }
+                ],
+                "footer_col2": [
+                    {
+                        "name": "Kútur",
+                        "pageRef": "/en/kutur",
+                        "weight": 10
+                    },
+                    {
+                        "name": "Hleiðra",
+                        "pageRef": "/en/hleidra",
+                        "weight": 20
+                    },
+                    {
+                        "name": "Úlfljótsvatn",
+                        "pageRef": "/en/ulfljotsvatn",
+                        "weight": 30
+                    }
+                ],
+                "footer_col3": [
+                    {
+                        "name": "About Skjöldungar",
+                        "pageRef": "/en/um-skjoldunga",
+                        "weight": 10
+                    },
+                    {
+                        "name": "Laws of Skjöldungar",
+                        "pageRef": "/en/laws-of-skjoldungar",
+                        "weight": 20
+                    },
+                    {
+                        "name": "History of Skjöldungar",
+                        "pageRef": "/is/history",
+                        "weight": 30
+                    },
+                    {
+                        "name": "Annual plan",
+                        "pageRef": "/is/annual-plan",
+                        "weight": 40
+                    },
+                    {
+                        "name": "Board and leadership",
+                        "pageRef": "/is/volunteer-scouts",
+                        "weight": 50
+                    },
+                    {
+                        "name": "Registration",
+                        "url": "https://www.sportabler.com/shop/skjoldungar",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 60
+                    },
+                    {
+                        "name": "Instagram",
+                        "url": "https://www.instagram.com/skjoldungar/",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 70
+                    },
+                    {
+                        "name": "Facebook",
+                        "url": "https://www.facebook.com/skatafelagidskjoldungar",
+                        "params": {
+                            "rel": "external"
+                        },
+                        "weight": 80
+                    }
                 ]
             }
         }

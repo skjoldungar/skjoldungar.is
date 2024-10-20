@@ -58,7 +58,7 @@
             </div>
             <div class="grid flex-grow grid-cols-1 gap-12 md:grid-cols-3">
                 <div>
-                    <p class="font-medium text-white">Skátastarf</p>
+                    <p class="font-medium text-white">{{ T "footer_scouting" }}</p>
                     <div class="link-column">
                         {{- range site.Menus.footer_col1 }}
                             {{ if eq .Params.Rel "external" }}
@@ -83,7 +83,7 @@
                 </div>
                 <div>
                     <p class="font-medium text-white">
-                        Skálar og staðsetningar
+                        {{ T "footer_cabins" }}
                     </p>
                     <div class="link-column">
                         {{- range site.Menus.footer_col2 }}
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <div>
-                    <p class="font-medium text-white">Skjöldungar</p>
+                    <p class="font-medium text-white">{{ T "footer_skjoldungar" }}</p>
                     <div class="link-column">
                         {{- range site.Menus.footer_col3 }}
                             {{ if eq .Params.Rel "external" }}
