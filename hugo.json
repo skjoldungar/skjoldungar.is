@@ -52,6 +52,11 @@
                             "rel": "external"
                         },
                         "weight": 50
+                    },
+                    {
+                        "name": "English",
+                        "pageRef": "/en",
+                        "weight": 100
                     }
                 ]
             }
@@ -105,6 +110,11 @@
                             "rel": "external"
                         },
                         "weight": 50
+                    },
+                    {
+                        "name": "Íslenska",
+                        "pageRef": "/is",
+                        "weight": 100
                     }
                 ]
             }

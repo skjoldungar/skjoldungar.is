@@ -95,7 +95,7 @@
                 <a href="/{{ site.Language }}">
                     <img src="/img/logotype.svg" class="h-14 min-[900px]:h-16 " />
                 </a>
-                
+
                 <nav class="hidden items-center gap-8 min-[900px]:flex">
                     {{- range site.Menus.main }}
                         {{ if eq .Params.Rel "external" }}
@@ -159,16 +159,33 @@
         style="display:none;"
         data-open="false"
     >
-        <a href="/um-skjoldunga">Um Skjöldunga</a>
-        <a href="/starfsaaetlun">Starfsáætlun</a>
-        <a href="/utilifsskoli">Útilífsskólinn</a>
-        <button type="button" data-bs-toggle="dropdown" aria-expanded="false" class="flex items-center gap-1">
-            Skátaskálar
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
-                class="size-4">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-            </svg>
-        </button>
-        <a href="https://www.sportabler.com/shop/skjoldungar" target="_blank" rel="noreferrer">Skráning</a>
+        {{- range site.Menus.main }}
+            {{ if eq .Params.Rel "external" }}
+                <a href="{{ .URL }}" target="_blank" rel="noreferrer">{{ .Name }}</a>
+            {{ else if .Children }}
+                <div>
+                    <button
+                        type="button"
+                        aria-expanded="false"
+                        class="flex items-center gap-1 text-base group peer skj-dropdown"
+                    >
+                        {{ .Name }}
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="size-4 text-gray-400 group-aria-[expanded=true]:rotate-90 transition duration-150 ease-in-out">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </button>
+
+                    <div class="peer-aria-[expanded=true]:flex peer-aria-[expanded=false]:hidden flex-col gap-6 pt-6 skj-dropdown-content">
+                        {{- range .Children }}
+                            <a href="{{ .PageRef }}" class="border-l border-gray-300 pl-3 text-base">{{ .Name }}</a>
+                        {{ end }}
+                    </div>
+                </div>
+            {{ else }}
+                <a href="{{ .PageRef }}">{{ .Name }}</a>
+            {{ end }}
+        {{ end }}
     </nav>
 </header>
