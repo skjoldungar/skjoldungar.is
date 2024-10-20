@@ -155,37 +155,41 @@
 
     <nav
         id="mobile-nav"
-        class="bg-gray-50 w-full absolute z-[15] top-[7rem] left-0 p-8 flex-col gap-6 [&>a]:text-base [&>button]:text-base data-[open=true]:translate-y-0 data-[open=false]:-translate-y-full transition duration-300 ease-in-out"
+        class="bg-gray-50 w-full absolute z-[15] top-[7rem] left-0 data-[open=true]:translate-y-0 data-[open=false]:-translate-y-full transition duration-300 ease-in-out"
         style="display:none;"
         data-open="false"
     >
-        {{- range site.Menus.main }}
-            {{ if eq .Params.Rel "external" }}
-                <a href="{{ .URL }}" target="_blank" rel="noreferrer">{{ .Name }}</a>
-            {{ else if .Children }}
-                <div>
-                    <button
-                        type="button"
-                        aria-expanded="false"
-                        class="flex items-center gap-1 text-base group peer skj-dropdown"
-                    >
-                        {{ .Name }}
+        <div class="container py-8">
+            <div class="flex flex-col gap-6 [&>a]:text-base [&>button]:text-base">
+                {{- range site.Menus.main }}
+                    {{ if eq .Params.Rel "external" }}
+                        <a href="{{ .URL }}" target="_blank" rel="noreferrer">{{ .Name }}</a>
+                    {{ else if .Children }}
+                        <div>
+                            <button
+                                type="button"
+                                aria-expanded="false"
+                                class="flex items-center gap-1 text-base group peer skj-dropdown"
+                            >
+                                {{ .Name }}
 
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                            class="size-4 text-gray-400 group-aria-[expanded=true]:rotate-90 transition duration-150 ease-in-out">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                        </svg>
-                    </button>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    class="size-4 text-gray-400 group-aria-[expanded=true]:rotate-90 transition duration-150 ease-in-out">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </button>
 
-                    <div class="peer-aria-[expanded=true]:flex peer-aria-[expanded=false]:hidden flex-col gap-6 pt-6 skj-dropdown-content">
-                        {{- range .Children }}
-                            <a href="{{ .PageRef }}" class="border-l border-gray-300 pl-3 text-base">{{ .Name }}</a>
-                        {{ end }}
-                    </div>
-                </div>
-            {{ else }}
-                <a href="{{ .PageRef }}">{{ .Name }}</a>
-            {{ end }}
-        {{ end }}
+                            <div class="peer-aria-[expanded=true]:flex peer-aria-[expanded=false]:hidden flex-col gap-6 pt-6 skj-dropdown-content">
+                                {{- range .Children }}
+                                    <a href="{{ .PageRef }}" class="border-l border-gray-300 pl-3 text-base">{{ .Name }}</a>
+                                {{ end }}
+                            </div>
+                        </div>
+                    {{ else }}
+                        <a href="{{ .PageRef }}">{{ .Name }}</a>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
     </nav>
 </header>
