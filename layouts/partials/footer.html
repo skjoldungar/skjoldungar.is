@@ -225,6 +225,7 @@
     src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"
 ></script>
 <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+<script src="/js/nprogress.js"></script>
 <script>
     (() => {
         const btn = document.querySelector('#mobile-nav-toggle');
@@ -251,5 +252,10 @@
                 }
             });
         }
+
+        document.body.addEventListener('htmx:xhr:loadstart', () => NProgress.start());
+        document.body.addEventListener('htmx:xhr:loadend', () => NProgress.done());
+        document.body.addEventListener('htmx:afterRequest', () => NProgress.done());
+        document.body.addEventListener('htmx:xhr:abort', () => NProgress.done());
     })();
 </script>
