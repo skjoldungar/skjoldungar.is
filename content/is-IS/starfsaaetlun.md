@@ -3,6 +3,7 @@ title: "Starfsáætlun"
 subtitle: "Fyrir starfsárið 2024-2025"
 background: "/img/hopmyndir/thorsmork-opinbera.jpg"
 date: 2024-10-19T21:58:31Z
+translationKey: "annual-plan"
 draft: false
 ---
 
@@ -52,7 +53,7 @@ Foringjar: Sjálfboðaliðar óskast
 
 ## Helstu viðburðir starfsársins
 
--   9.sept vetrarstarf hefst
+-   9\. sept vetrarstarf hefst
 -   Sep – Foreldrafundur og kynning á vetrarstarfi
 -   Okt – Aðalfundur Skjöldunga 2.okt
 -   Okt – Félagsútilega Skjöldunga í Básum Goðalandi (Þórsmörk) 11.-13.október
