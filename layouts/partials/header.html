@@ -136,6 +136,8 @@
                             <a href="{{ .PageRef }}">{{ .Name }}</a>
                         {{ end }}
                     {{ end }}
+
+                    {{ partial "lang-switch.html" . }}
                 </nav>
 
                 <button class="min-[900px]:hidden text-gray-700 group" id="mobile-nav-toggle" data-toggled="false">
@@ -189,6 +191,8 @@
                         <a href="{{ .PageRef }}">{{ .Name }}</a>
                     {{ end }}
                 {{ end }}
+
+                {{ partial "lang-switch.html" . }}
             </div>
         </div>
     </nav>

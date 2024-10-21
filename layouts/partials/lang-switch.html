@@ -1,0 +1,20 @@
+<!--
+
+    Þetta kjafthæði - fengið héðan https://github.com/moodlebox/hugo-moodlebox-theme/blob/master/layouts/partials/langswitcher.html - gerir
+    okkur kleift að skipta milli ensku og íslensku án þess að tapa síðunni sem notandinn var á.
+
+-->
+
+{{ $siteLanguages := .Site.Languages}}
+{{ $pageLang := .Page.Lang}}
+{{ range .Page.AllTranslations }}
+{{ $translation := .}}
+{{ range $siteLanguages }}
+{{ if eq $translation.Lang .Lang }}
+{{ $selected := false }}
+{{ if not (eq $pageLang .Lang)}}
+<a href="{{ $translation.RelPermalink }}">{{ .LanguageName }}</a>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
