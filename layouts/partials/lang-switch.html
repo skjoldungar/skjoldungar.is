@@ -13,7 +13,14 @@
 {{ if eq $translation.Lang .Lang }}
 {{ $selected := false }}
 {{ if not (eq $pageLang .Lang)}}
-<a href="{{ $translation.RelPermalink }}">{{ .LanguageName }}</a>
+<a href="{{ $translation.RelPermalink }}" class="flex gap-1 items-center">
+    {{ .LanguageName }}
+    {{ if eq .Lang "en" }}
+    <img src="/img/flags/eu.png" class="-mb-[1px]" />
+    {{ else }}
+    <img src="/img/flags/{{ .Lang }}.png" class="-mb-[1px]" />
+    {{ end }}
+</a>
 {{ end }}
 {{ end }}
 {{ end }}

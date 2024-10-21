@@ -1141,6 +1141,10 @@ video {
   margin-top: 1px;
 }
 
+.-mb-\[1px\] {
+  margin-bottom: -1px;
+}
+
 .block {
   display: block;
 }
