@@ -11,21 +11,27 @@
 
     "homepage_groups_family_title": "Family scouts",
     "homepage_groups_family_subtitle": "All ages",
+    "homepage_groups_family_link": "/en/family-scouts",
 
     "homepage_groups_drekar_title": "Dragon scouts",
     "homepage_groups_drekar_subtitle": "Years 7-9",
+    "homepage_groups_drekar_link": "/en/dragon-scouts",
 
     "homepage_groups_falkar_title": "Falcon scouts",
     "homepage_groups_falkar_subtitle": "Years 10-12",
+    "homepage_groups_falkar_link": "/en/falcon-scouts",
 
     "homepage_groups_drott_title": "Drótt-scouts",
     "homepage_groups_drott_subtitle": "Years 13-15",
+    "homepage_groups_drott_link": "/en/drott-scouts",
 
     "homepage_groups_rekkar_title": "Rekka-scouts",
     "homepage_groups_rekkar_subtitle": "Years 16-18",
+    "homepage_groups_rekkar_link": "/en/rekka-scouts",
 
     "homepage_groups_volunteer_title": "Volunteer scouts",
     "homepage_groups_volunteer_subtitle": "Years 19+",
+    "homepage_groups_volunteer_link": "/en/volunteer-scouts",
 
     "homepage_news_title": "News and events",
     "homepage_news_see_all": "See all",
