@@ -1117,6 +1117,10 @@ video {
   z-index: 25;
 }
 
+.-mb-\[1px\] {
+  margin-bottom: -1px;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -1139,10 +1143,6 @@ video {
 
 .mt-\[1px\] {
   margin-top: 1px;
-}
-
-.-mb-\[1px\] {
-  margin-bottom: -1px;
 }
 
 .block {
