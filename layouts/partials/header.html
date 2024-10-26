@@ -101,12 +101,12 @@
                         {{ if eq .Params.Rel "external" }}
                             <a href="{{ .URL }}" target="_blank" rel="noreferrer">{{ .Name }}</a>
                         {{ else if .Children }}
-                            <div class="dropdown">
+                            <div class="relative">
                                 <button
                                     type="button"
-                                    data-bs-toggle="dropdown"
+                                    id="menu-{{ lower .Name }}"
                                     aria-expanded="false"
-                                    class="flex items-center gap-1"
+                                    class="flex items-center gap-1 skj-menu-dropdown peer"
                                 >
                                     {{ .Name }}
                                     <svg
@@ -124,7 +124,7 @@
                                         ></path>
                                     </svg>
                                 </button>
-                                <ul class="dropdown-menu dropdown-menu-end">
+                                <ul class="skj-menu-dropdown-content dropdown-menu dropdown-menu-end peer-aria-[expanded=true]:block">
                                     {{- range .Children }}
                                         <li>
                                             <a class="dropdown-item" href="{{ .PageRef }}"> {{ .Name }} </a>

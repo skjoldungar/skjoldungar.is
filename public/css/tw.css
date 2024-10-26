@@ -1117,6 +1117,10 @@ video {
   z-index: 25;
 }
 
+.-mb-\[1px\] {
+  margin-bottom: -1px;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -1139,10 +1143,6 @@ video {
 
 .mt-\[1px\] {
   margin-top: 1px;
-}
-
-.-mb-\[1px\] {
-  margin-bottom: -1px;
 }
 
 .block {
@@ -1628,7 +1628,7 @@ iframe {
   position: absolute;
   left: 50% !important;
   z-index: 25;
-  margin-top: 2rem !important;
+  margin-top: 0.75rem !important;
   display: none;
   width: 12rem;
   --tw-translate-x: -50% !important;
@@ -1785,6 +1785,10 @@ iframe {
 .group[aria-expanded="true"] .group-aria-\[expanded\=true\]\:rotate-90 {
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.peer[aria-expanded="true"] ~ .peer-aria-\[expanded\=true\]\:block {
+  display: block;
 }
 
 .peer[aria-expanded="true"] ~ .peer-aria-\[expanded\=true\]\:flex {

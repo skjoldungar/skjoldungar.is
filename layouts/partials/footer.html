@@ -171,24 +171,14 @@
     </div>
 </footer>
 
-<script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"
-></script>
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"
-></script>
-<script
-    is:inline
-    src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"
-></script>
 <script src="https://unpkg.com/htmx.org@1.9.12"></script>
 <script src="/js/nprogress.js"></script>
 <script>
     (() => {
+        // initialize custom namespace in `window`
+        window._www_skjoldungar_is = { active_dropdown: null, dropdown_focus_index: null };
+
+        // begin mobile nav logic
         const btn = document.querySelector('#mobile-nav-toggle');
         const menu = document.querySelector('#mobile-nav');
 
@@ -203,7 +193,9 @@
                 menu.dataset.open = "false";
             }
         });
+        // end mobile nav logic
 
+        // begin mobile dropdown logic
         for (const toggle of document.querySelectorAll('.skj-dropdown')) {
             toggle.addEventListener('click', () => {
                 if (toggle.getAttribute('aria-expanded') === "false") {
@@ -213,10 +205,119 @@
                 }
             });
         }
+        // end mobile dropdown logic
 
+        // begin menu dropdown logic
+        for (const toggle of document.querySelectorAll('.skj-menu-dropdown')) {
+            toggle.addEventListener('click', () => {
+                if (toggle.getAttribute('aria-expanded') === 'false') {
+                    toggle.setAttribute('aria-expanded', 'true');
+                    window._www_skjoldungar_is.active_dropdown = toggle.getAttribute('id');
+                } else {
+                    toggle.setAttribute('aria-expanded', 'false');
+                    window._www_skjoldungar_is.active_dropdown = null;
+                    window._www_skjoldungar_is.dropdown_focus_index = null;
+                }
+            });
+        }
+
+        document.body.addEventListener('keydown', (e) => {
+            if (typeof window._www_skjoldungar_is?.active_dropdown === "string") {
+                const options = document.querySelectorAll(`#${window._www_skjoldungar_is.active_dropdown} + .skj-menu-dropdown-content a`);
+
+                switch (e.code) {
+                    // close the menu when the escape key is pressed while its active
+                    case "Escape":
+                        close_dropdown(window._www_skjoldungar_is.active_dropdown);
+
+                        break;
+                    
+                    // navigate down the menu with arrow keys
+                    case "ArrowDown":
+                        {
+                            e.preventDefault();
+
+                            if (typeof window._www_skjoldungar_is.dropdown_focus_index !== "number") {
+                                options[0].focus();
+                                window._www_skjoldungar_is.dropdown_focus_index = 0;
+                                break;
+                            }
+                                
+                            let new_index = window._www_skjoldungar_is.dropdown_focus_index + 1;
+                            if (options[new_index]) {
+                                options[new_index].focus();
+                                window._www_skjoldungar_is.dropdown_focus_index = new_index;
+                                break;
+                            }
+
+                            new_index = 0;
+                            if (options[new_index]) {
+                                options[new_index].focus();
+                                window._www_skjoldungar_is.dropdown_focus_index = new_index;
+                            }
+
+                            break;
+                        }
+
+                    // navigate up the menu with arrow keys
+                    case "ArrowUp":
+                        {
+                            e.preventDefault();
+
+                            if (typeof window._www_skjoldungar_is.dropdown_focus_index !== "number") {
+                                const index = options.length - 1;
+                                options[index].focus();
+                                window._www_skjoldungar_is.dropdown_focus_index = index;
+                                break;
+                            }
+
+                            let new_index = window._www_skjoldungar_is.dropdown_focus_index - 1;
+                            if (options[new_index]) {
+                                options[new_index].focus();
+                                window._www_skjoldungar_is.dropdown_focus_index = new_index;
+                                break;
+                            }
+
+                            new_index = options.length - 1;
+                            if (options[new_index]) {
+                                options[new_index].focus();
+                                window._www_skjoldungar_is.dropdown_focus_index = new_index;
+                            }
+
+                            break;
+                        }
+                }
+            }
+        });
+
+        // when the user clicks off the menu, close the menu
+        document.body.addEventListener('click', (e) => {
+            if (typeof window._www_skjoldungar_is?.active_dropdown === "string") {
+                e.preventDefault();
+
+                if (e.target.id === window._www_skjoldungar_is?.active_dropdown) {
+                    return;
+                }
+
+                close_dropdown(window._www_skjoldungar_is.active_dropdown);
+            }
+        });
+
+        function close_dropdown(id) {
+            document
+                .getElementById(id)
+                .setAttribute('aria-expanded', 'false');
+
+            window._www_skjoldungar_is.active_dropdown = null;
+            window._www_skjoldungar_is.dropdown_focus_index = null;
+        }
+        // end menu dropdown logic
+
+        // begin logic for hooking nprogress up to htmx events
         document.body.addEventListener('htmx:xhr:loadstart', () => NProgress.start());
         document.body.addEventListener('htmx:xhr:loadend', () => NProgress.done());
         document.body.addEventListener('htmx:afterRequest', () => NProgress.done());
         document.body.addEventListener('htmx:xhr:abort', () => NProgress.done());
+        // end logic for hooking nprogress up to htmx events
     })();
 </script>
