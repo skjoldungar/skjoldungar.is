@@ -24,8 +24,6 @@ The annual fee covers the weekly scout meeting schedule, patrol camping trips, s
 
 A 10% sibling discount is applied automatically. Reykjavík City's "leisure card" (frístundakort) can still be used to pay the annual fee. Additionally, payments can be split.
 
-Systkinaafsláttur er 10% sem kemur sjálfkrafa inn. Áfram er hægt að nota Frístundakort Reykjavíkurborgar til að greiða árgjald. Einnig er hægt að skipta greiðslum.
-
 **To ease with this change in fee scheduling, we kindly ask parents/guardians to be in contact with us if this fee schedule is not desirable.**
 
 {{< grid class="grid-cols-1 md:grid-cols-2" >}}
