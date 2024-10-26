@@ -46,12 +46,6 @@
                         "parent": "Skátaskálar"
                     },
                     {
-                        "name": "test",
-                        "pageRef": "/is/hleidra",
-                        "weight": 42,
-                        "parent": "Skátaskálar"
-                    },
-                    {
                         "name": "Skráning",
                         "url": "https://www.sportabler.com/shop/skjoldungar",
                         "params": {
