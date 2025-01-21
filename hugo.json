@@ -119,6 +119,11 @@
                         "weight": 30
                     },
                     {
+                        "name": "Söngvasafn",
+                        "pageRef": "/is/songvasafn",
+                        "weight": 35
+                    },
+                    {
                         "name": "Starfsáætlun",
                         "pageRef": "/is/starfsaaetlun",
                         "weight": 40
@@ -269,6 +274,11 @@
                         "name": "History of Skjöldungar",
                         "pageRef": "/is/history",
                         "weight": 30
+                    },
+                    {
+                        "name": "Song library",
+                        "pageRef": "/is/song-library",
+                        "weight": 35
                     },
                     {
                         "name": "Annual plan",
