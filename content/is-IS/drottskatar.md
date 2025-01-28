@@ -1,8 +1,8 @@
 ---
 title: "Dróttskátar"
-subtitle: "Við erum Dróttskátar, því ekki þið! Dróttskátar eru á aldrinum 13-15 og eitt hressasta aldursbilið."
+subtitle: "\"Við erum Dróttskátar, því ekki þið!?\" Dróttskátar eru á aldrinum 13-15 og eitt hressasta aldursbilið."
 herosize: "lg"
-background: "/img/backgrounds/drottskatar.webp"
+background: "/img/backgrounds/drottskatar.jpg"
 date: 2024-10-21T00:37:35Z
 translationKey: "drottskatar"
 draft: false
