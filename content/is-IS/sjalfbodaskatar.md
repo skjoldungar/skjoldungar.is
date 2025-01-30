@@ -12,14 +12,14 @@ draft: false
 
 ## Drekaskátaforingjar
 
--   Hanna Gréta
--   Freydís
+-   Hanna Greta
+-   Arney Sif
 
 <--->
 
 ## Fálkaskátaforingjar
 
--   Valur
+-   Valur Kári
 -   Kjartan
 -   Tumi
 -   Bryndís
@@ -37,7 +37,8 @@ draft: false
 
 ## Rekkaskátaforingjar
 
--   Hanna Gréta
+-   Hanna Greta
+-   Valur Kári
 
 <--->
 
