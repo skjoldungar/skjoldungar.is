@@ -65,5 +65,6 @@ Símanúmer:
 -   [Upplýsingar um stjórn og foringja](/is/sjalfbodaskatar)
 -   [Aðgerðaráætlun Reykjavíkurborgar í jafnréttismálum 2015-2019](https://reykjavik.is/sites/default/files/ymis_skjol/skjol_utgefid_efni/adgerdaaaetlun_reykjavikurborgar_i_jafnrettismalum_2015-2019.pdf)
 -   [Forvarnarstefna Reykjavíkurborgar 2014-2019](https://reykjavik.is/sites/default/files/forvarnastefna_reykjavikur_net.pdf)
+-   Skjöldungar starfa eftir [mannréttindastefnu Reykjavíkurborgar](https://reykjavik.is/mannrettindastefna)
 
 {{< /grid >}}
