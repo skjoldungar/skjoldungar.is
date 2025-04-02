@@ -66,5 +66,6 @@ Phone numbers:
 -   [Information about board members and patrol leaders](/en/volunteer-scouts)
 -   [Action plan of the city of Reykjavík in matters of equality 2015-2019 (Icelandic)](https://reykjavik.is/sites/default/files/ymis_skjol/skjol_utgefid_efni/adgerdaaaetlun_reykjavikurborgar_i_jafnrettismalum_2015-2019.pdf)
 -   [Reykjavík City's harassment prevention strategy in matters of youth 2014-2019 (Icelandic)](https://reykjavik.is/sites/default/files/forvarnastefna_reykjavikur_net.pdf)
+-   Skjöldungar operate in accordance with [Reykjavík City's Human Rights Policy](https://reykjavik.is/en/human-rights-policy)
 
 {{< /grid >}}
