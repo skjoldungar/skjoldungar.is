@@ -29,7 +29,7 @@
                         "weight": 30
                     },
                     {
-                        "name": "Skátaskálar",
+                        "name": "Skálar og salur",
                         "pageRef": "/is/skalar",
                         "weight": 40
                     },
@@ -37,13 +37,19 @@
                         "name": "Kútur",
                         "pageRef": "/is/kutur",
                         "weight": 41,
-                        "parent": "Skátaskálar"
+                        "parent": "Skálar og salur"
                     },
                     {
                         "name": "Hleiðra",
                         "pageRef": "/is/hleidra",
                         "weight": 42,
-                        "parent": "Skátaskálar"
+                        "parent": "Skálar og salur"
+                    },
+                    {
+                        "name": "Salur í skátaheimilinu",
+                        "pageRef": "/is/salur",
+                        "weight": 43,
+                        "parent": "Skálar og salur"
                     },
                     {
                         "name": "Skráning",
@@ -186,7 +192,7 @@
                         "weight": 30
                     },
                     {
-                        "name": "Cabins",
+                        "name": "Cabins and hall",
                         "pageRef": "/en/cabins",
                         "weight": 40
                     },
@@ -194,13 +200,19 @@
                         "name": "Kútur",
                         "pageRef": "/en/kutur",
                         "weight": 41,
-                        "parent": "Cabins"
+                        "parent": "Cabins and hall"
                     },
                     {
                         "name": "Hleiðra",
                         "pageRef": "/en/hleidra",
                         "weight": 42,
-                        "parent": "Cabins"
+                        "parent": "Cabins and hall"
+                    },
+                    {
+                        "name": "Hall in the scout house",
+                        "pageRef": "/en/hall",
+                        "weight": 43,
+                        "parent": "Cabins and hall"
                     },
                     {
                         "name": "Registration",
