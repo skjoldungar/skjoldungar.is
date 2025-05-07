@@ -19,3 +19,32 @@ Viðfangsefni Dróttskátastarfs eru m.a. að skátinn átti sig á sínum eigin
 Dróttskátaforingjar vinna í samvinnu með skátunum til þess að skipuleggja sína fundi. Unnið er með það að skátarnir fái frelsi til þess að ákveða hvað þau vilja gera og að foringjar komi því í verk, innan skikkanlegra marka.
 
 {{< /img-section >}}
+
+## Helstu upplýsingar
+
+{{< grid class="grid-cols-4" >}}
+
+Hvenær eru fundir? <br /> **Fundir eru fimmtudaga frá 19-21, nema annað sé tekið fram**
+
+<--->
+
+Hvar eru fundir? <br /> **Þeir eru í Skátaheimili Skjöldunga, Sólheimum 21a**
+
+<--->
+
+Þarf að vera með skátaklút? <br /> **Æskilegt er að vígðir skátar mæti alltaf með klút 😊**
+
+<--->
+
+Má koma og prófa? <br /> **Að sjálfsögðu, en beðið er um að það sé látið vita fyrir fund**
+
+<--->
+
+Hverjir eru sveitaforingjar? <br /> **Bryndís og Laura eru sveitaforingjar**
+
+<--->
+
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Kjartan og Tumi eru aðstoðar**
+
+{{< /grid >}}
+
