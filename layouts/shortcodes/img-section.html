@@ -5,5 +5,5 @@
         </div>
     {{ end }}
 
-    <img class="w-2/5 rounded-lg flex-shrink-0 object-cover" {{ with .Get "src" }} src="{{ . }}" {{ end }} {{ with .Get "alt" }} src="{{ . }}" {{ end }} />
+    <img class="w-2/5 rounded-lg flex-shrink-0 object-cover {{ with .Get "class" }}{{ . }}{{ end }}" {{ with .Get "src" }} src="{{ . }}" {{ end }} {{ with .Get "alt" }} src="{{ . }}" {{ end }} />
 </div>

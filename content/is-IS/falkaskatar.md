@@ -12,7 +12,7 @@ draft: false
 
 ## Fálkaskátastarfið
 
-Fálkaskátar eru á eru á aldrinum 10-12 ára og er starfslýsingin að "vikulegt starf í flokki, sveitarfundir reglulega" ([BÍS](https://skatarnir.is/drottskatar-2/)).
+Fálkaskátar eru á eru á aldrinum 10-12 ára og er starfslýsingin að "vikulegt starf í flokki, sveitarfundir reglulega" ([BÍS](https://skatarnir.is/falkaskatar-2/)).
 
 Viðfangsefni Fálkaskátastarfs eru m.a. að skátinn standi á eigin fótum og hafi mikil áhrif á verkefnaval fólks og sveitar; læra að vinna í hóp og bera ábyrgð; aukin vitund um eigin líkama og getu og taka tillit til jafningja sinna; læra að búa sig fyrir útivist, skyndihjálp; og skapa úti í náttúrunni.
 
@@ -22,7 +22,7 @@ Fálkaskátaforingjar vinna í samvinnu með skátunum til þess að skipuleggja
 
 ## Helstu upplýsingar
 
-{{< grid class="grid-cols-4" >}}
+{{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" >}}
 
 Hvenær eru fundir? <br /> **Fundir eru miðvikudaga frá 18-19:30, nema annað sé tekið fram**
 
