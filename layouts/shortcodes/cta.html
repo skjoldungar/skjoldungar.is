@@ -1,0 +1,17 @@
+<div class="flex flex-row gap-8 justify-between items-center {{ with .Get "class" }}{{ . }}{{ end }}">
+    <div class="flex-grow">
+        {{ .Inner | markdownify }}
+    </div>
+    <div>
+        <a
+            href="{{ .Get "href" }}"
+            {{ with .Get "external" }}
+            target="_blank"
+            rel="noreferrer"
+            {{ end }}
+            class="hasdarkbg bg-tomato hover:bg-tomato-light inline-block rounded-lg px-3 py-2.5 font-semibold text-white no-underline"
+        >
+            {{ .Get "label" }}
+        </a>
+    </div>
+</div>

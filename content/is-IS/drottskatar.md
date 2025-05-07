@@ -48,3 +48,8 @@ Hverjir eru aðstoðarsveitaforingjar? <br /> **Kjartan og Tumi eru aðstoðar**
 
 {{< /grid >}}
 
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+
+## Á þinn táningur heima í Dróttskátum?
+
+{{< /cta >}}

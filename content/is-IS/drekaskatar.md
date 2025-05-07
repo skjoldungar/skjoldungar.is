@@ -47,3 +47,9 @@ Hverjir eru sveitaforingjar? <br /> **Arney og Hanna Greta eru sveitaforingjar**
 Hverjir eru aðstoðarsveitaforingjar? <br /> **Ása, Freydís, Guðrún, og Herdís eru aðstoðar**
 
 {{< /grid >}}
+
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+
+## Á þitt barn heima í Drekaskátum?
+
+{{< /cta >}}

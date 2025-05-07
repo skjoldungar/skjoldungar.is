@@ -1,7 +1,12 @@
+{{ $nomarkdown := .Get "nomarkdown" }}
 <div {{ with .Get "class" }} class="grid gap-8 {{ . }}" {{ end }}>
     {{ range split .Inner "<--->" }}
         <div>
-            {{ . | markdownify }}
+            {{ if eq $nomarkdown "yes" }}
+                {{ . }}
+            {{ else }}
+                {{ . | markdownify }}
+            {{ end }}
         </div>
     {{ end }}
 </div>

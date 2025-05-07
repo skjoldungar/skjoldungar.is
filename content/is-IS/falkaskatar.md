@@ -47,3 +47,9 @@ Hverjir eru sveitaforingjar? <br /> **Valur Kári er sveitaforingi**
 Hverjir eru aðstoðarsveitaforingjar? <br /> **Bryndís, Kjartan, og Tumi eru aðstoðar**
 
 {{< /grid >}}
+
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+
+## Á þitt barn heima í Fálkaskátum?
+
+{{< /cta >}}

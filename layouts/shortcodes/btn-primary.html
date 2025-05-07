@@ -1,0 +1,10 @@
+<a
+    href="{{ with .Get "href" }}{{ . }}{{ end }}"
+    {{ with .Get "external" }}
+    target="_blank"
+    rel="noreferrer"
+    {{ end }}
+    class="hasdarkbg bg-tomato hover:bg-tomato-light inline-block rounded-lg px-3 py-2.5 font-semibold text-white"
+>
+    {{ .Inner }}
+</a>

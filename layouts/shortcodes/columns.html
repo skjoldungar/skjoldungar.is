@@ -1,7 +1,12 @@
-<div class="flex flex-row gap-8">
+{{ $nomarkdown := .Get "nomarkdown" }}
+<div class="flex flex-row gap-8 {{ with .Get "class" }}{{ . }}{{ end }}">
     {{ range split .Inner "<--->" }}
         <div class="flex-grow">
-            {{ . | markdownify }}
+            {{ if eq $nomarkdown "yes" }}
+                {{ . }}
+            {{ else }}
+                {{ . | markdownify }}
+            {{ end }}
         </div>
     {{ end }}
 </div>
