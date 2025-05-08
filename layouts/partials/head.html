@@ -21,6 +21,16 @@
         <meta property="og:image" content="{{ .Params.Background }}" />
         <meta property="twitter:image" content="{{ .Params.Background }}" />
         {{ end }}
+
+        <meta name="title" content="{{ .Params.Title }} — Skjöldungar" />
+        <meta property="og:title" content="{{ .Params.Title }} — Skjöldungar" />
+        <meta property="twitter:title" content="{{ .Params.Title }} — Skjöldungar" />
+
+        {{ if .Params.Subtitle }}
+        <meta name="description" content="{{ .Params.Subtitle }}" />
+        <meta property="og:description" content="{{ .Params.Subtitle }}" />
+        <meta property="twitter:description" content="{{ .Params.Subtitle }}" />
+        {{ end }}
     {{ end }}
 
     <title>{{ $title }}</title>
