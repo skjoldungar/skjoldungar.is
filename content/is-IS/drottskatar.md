@@ -22,7 +22,7 @@ Dróttskátaforingjar vinna í samvinnu með skátunum til þess að skipuleggja
 
 ## Helstu upplýsingar
 
-{{< grid class="grid-cols-4" >}}
+{{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" >}}
 
 Hvenær eru fundir? <br /> **Fundir eru fimmtudaga frá 19-21, nema annað sé tekið fram**
 
