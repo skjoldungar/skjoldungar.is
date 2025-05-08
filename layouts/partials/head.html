@@ -10,5 +10,13 @@
     />
     {{ $title := print .Site.Title " | " .Title }} {{ if .IsHome }}{{ $title =
     .Site.Title }}{{ end }}
+
+    {{ if .IsPage }}
+        {{ if .Params.Background }}
+        <meta property="og:image" content="{{ .Params.Background }}" />
+        <meta property="twitter:image" content="{{ .Params.Background }}" />
+        {{ end }}
+    {{ end }}
+
     <title>{{ $title }}</title>
 </head>
