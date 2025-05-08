@@ -11,7 +11,12 @@
     {{ $title := print .Site.Title " | " .Title }} {{ if .IsHome }}{{ $title =
     .Site.Title }}{{ end }}
 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://skjoldungar.is/" />
+    <meta property="twitter:url" content="https://skjoldungar.is/" />
+
     {{ if .IsPage }}
+        <meta property="twitter:card" content="summary_large_image" />
         {{ if .Params.Background }}
         <meta property="og:image" content="{{ .Params.Background }}" />
         <meta property="twitter:image" content="{{ .Params.Background }}" />
