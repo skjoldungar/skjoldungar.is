@@ -44,7 +44,7 @@ Hverjir eru sveitaforingjar? <br /> **Arney og Hanna Greta eru sveitaforingjar**
 
 <--->
 
-Hverjir eru aðstoðarsveitaforingjar? <br /> **Ása, Freydís, Guðrún, og Herdís eru aðstoðar**
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Ása, Guðrún, Herdís, og Hildur eru aðstoðar**
 
 {{< /grid >}}
 
