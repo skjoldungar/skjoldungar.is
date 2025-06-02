@@ -16,7 +16,7 @@ The camp is scheduled with a lot of outdoor activity with primary areas of focus
 
 The following camps have been scheduled:
 
-{{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8" >}}
+{{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8" >}}
 
 **Camp 1**
 
