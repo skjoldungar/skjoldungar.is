@@ -10,7 +10,14 @@ draft: false
 
 ## Um skálann
 
-bla bla bla
+Verðskrá:
+
+Yfir helgi 30.000kr.
+
+Yfir helgi fyrir skáta eða annað æskulýðsstarf 25.000kr.
+
+Dagsgjald 15.000kr.
+
 
 ## Útleiga og afnot
 
