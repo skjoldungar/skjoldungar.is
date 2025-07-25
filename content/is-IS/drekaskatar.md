@@ -2,7 +2,7 @@
 title: "Drekaskátar"
 subtitle: "\"Við erum Drekaskátar, því ekki þið!?\" Drekaskátar eru á aldrinum 7-9 ára og eru skátakrútt allra félaga"
 herosize: "lg"
-background: "/img/backgrounds/drekaskatar.jpg"
+background: <img width="1440" height="959" alt="image" src="https://github.com/user-attachments/assets/8101d5d3-de99-4e79-bf0f-2eea9302bdf4" />
 date: 2024-10-21T00:37:24Z
 translationKey: "drekaskatar"
 draft: false
