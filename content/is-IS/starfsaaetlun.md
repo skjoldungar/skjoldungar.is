@@ -15,7 +15,7 @@ draft: false
 
 Þriðjudagar 18:30 – 19:30
 
-Foringjar: Hanna og Freydís
+Foringjar: Hanna og Arney
 
 <--->
 
