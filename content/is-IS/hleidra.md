@@ -25,4 +25,4 @@ einhvað meira dót
 
 ## Er Hleiðra laus?
 
-já! örugglega
+Hafðu samband við starfsmann. skjoldungar@skjoldungar.is eða í síma 821 6802
