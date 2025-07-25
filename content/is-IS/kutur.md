@@ -10,7 +10,15 @@ draft: false
 
 ## Um skálann
 
-verðskrá
+verðskrá:
+
+Yfir helgi 25.000kr.
+
+Yfir helgi fyrir skáta 20.000kr og annað æskulýðsstarf.
+
+Dagsgjald 12.500kr
+
+
 
 ## Útleiga og afnot
 
@@ -18,4 +26,5 @@ einhvað dót!
 
 ## Er Hleiðra laus?
 
-já! örugglega
+Hafðu samband við starfsmann. 
+skjoldungar@skjoldungar.is eða í síma 821 6802
