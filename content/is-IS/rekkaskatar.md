@@ -5,7 +5,7 @@ translationKey: "rekkaskatar"
 draft: false
 backround: "/img/backgrounds/![Rétta Rekkamyndin](https://github.com/user-attachments/assets/81b44089-3083-4b7e-8d0d-40a2855b8595)"
 
-"
+
 
 
 
