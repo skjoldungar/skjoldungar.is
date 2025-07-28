@@ -3,7 +3,8 @@ title: "Rekkaskátar"
 date: 2024-10-21T00:37:40Z
 translationKey: "rekkaskatar"
 draft: false
-backround: ![RO_SkataSumarid_1-1466-2](https://github.com/user-attachments/assets/1ad93a50-1862-40a1-b0dd-f0911c8c9730)
+backround: "img/skjoldungar/
+
 
 ---
 Rekkaskátastarfið
