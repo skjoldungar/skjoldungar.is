@@ -3,7 +3,8 @@ title: "Rekkaskátar"
 date: 2024-10-21T00:37:40Z
 translationKey: "rekkaskatar"
 draft: false
-backround: "![Rétta Rekkamyndin](https://github.com/user-attachments/assets/6b4090d0-499f-4866-ab97-4c1590fc4760)"
+backround: "/img/backgrounds/![Rétta Rekkamyndin](https://github.com/user-attachments/assets/81b44089-3083-4b7e-8d0d-40a2855b8595)"
+
 "
 
 
