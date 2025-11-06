@@ -44,7 +44,7 @@ Hverjir eru sveitaforingjar? <br /> **Bryndís og Laura eru sveitaforingjar**
 
 <--->
 
-Hverjir eru aðstoðarsveitaforingjar? <br /> **Kjartan og Tumi eru aðstoðar**
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Kría og Franz Halldór eru aðstoðar**
 
 {{< /grid >}}
 
