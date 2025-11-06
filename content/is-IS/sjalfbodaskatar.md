@@ -20,7 +20,6 @@ draft: false
 ## Fálkaskátaforingjar
 
 -   Valur Kári
--   Kjartan
 -   Tumi
 -   Bryndís
 
@@ -30,7 +29,7 @@ draft: false
 
 -   Laura
 -   Bryndís
--   Kjartan
+-   Kría
 -   Tumi
 
 <--->
