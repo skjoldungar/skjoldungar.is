@@ -44,7 +44,7 @@ Hverjir eru sveitaforingjar? <br /> **Valur Kári er sveitaforingi**
 
 <--->
 
-Hverjir eru aðstoðarsveitaforingjar? <br /> **Bryndís, Kjartan, og Tumi eru aðstoðar**
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Bryndís, Kría, og Tumi eru aðstoðar**
 
 {{< /grid >}}
 
