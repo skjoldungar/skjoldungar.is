@@ -23,7 +23,7 @@ Leaders: Hanna og Freydís
 
 Wednesdays 18:00 – 19:30
 
-Leaders: Valur, Kjartan, og Tumi
+Leaders: Franz Halldór, Bryndís, and Tumi
 
 <--->
 
@@ -31,7 +31,7 @@ Leaders: Valur, Kjartan, og Tumi
 
 Thursdays 19:00 – 21:00
 
-Leaders: Laura, Bryndís, Kjartan, og Tumi
+Leaders: Laura, Bryndís, Kría, and Franz Halldór
 
 <--->
 
