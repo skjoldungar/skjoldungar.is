@@ -43,10 +43,15 @@ draft: false
 
 ## Stjórn
 
--   Óskar Þór Þráinsson, félagsforingi
--   Daði Auðunsson, gjaldkeri
+-   Aron Gauti Sigurðarson, félagsforingi
+-   Signý Kristín Sigurjónsdóttir, gjaldkeri
 -   Valdís Hrund Hauksdóttir, bryti og áhaldavörður
--   Margrét Unnur Rögnvaldsdóttir, sjálfboðaliðaforingi og ritari
--   Aron Gauti Sigurðarson, dagskráforingi
+-   Andrés Ingi Jónsson, sjálfboðaliðaforingi
+-   Rafnar Friðrikson, dagskráforingi
+-   Óskar Þór Þráinsson, tengiliður Landsmóts
+-   Herdís Sigurgrímsdóttir, aðstoðarfélagsforingi
+-   Fjölnir Björgvinsson, aðstoðarfélagsforingi
+
+Kría Elínarbur, áheyrnarfulltrúi foringja, mætir á stjórnarfundi en er ekki í stjórn.
 
 {{< /grid >}}
