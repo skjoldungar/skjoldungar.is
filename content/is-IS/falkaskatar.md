@@ -40,11 +40,11 @@ Má koma og prófa? <br /> **Að sjálfsögðu, en beðið er um að það sé l
 
 <--->
 
-Hverjir eru sveitaforingjar? <br /> **Valur Kári er sveitaforingi**
+Hverjir eru sveitaforingjar? <br /> **Franz Halldór er sveitaforingi**
 
 <--->
 
-Hverjir eru aðstoðarsveitaforingjar? <br /> **Bryndís, Kría, og Tumi eru aðstoðar**
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Bryndís og Tumi eru aðstoðar**
 
 {{< /grid >}}
 
