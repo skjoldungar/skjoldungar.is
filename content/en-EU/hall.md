@@ -11,13 +11,17 @@ draft: false
 ## The hall
 
 The hall at the Skjöldungar scout house is ideal for meetings, courses, parties, and other events. It accommodates up to 50 people and is well equipped with tables, chairs, and technical equipment as needed. The hall also has access to a bathroom and a kitchen where catering can be prepared.
+
 The rest of the scout house is available to weekend renters as well, including sleeping spaces if required. Please note that the premises are a scout house, and the rooms often contain items or materials related to scout activities.
 
 ## Price list
 
 Day rental: 25,000 ISK  
+
 Day rental for scouts: 15,000 ISK  
+
 Weekend rental: 40,000 ISK  
+
 Weekend rental for scouts or other youth organizations: 30,000 ISK
 
 ## Terms of use
