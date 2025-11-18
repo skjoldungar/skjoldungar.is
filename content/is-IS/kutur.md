@@ -9,22 +9,20 @@ draft: false
 ---
 
 ## Um skálann
+Kútur er skátaskáli Skjöldunga staðsettur á Hellisheiði. Skálinn er tilvalinn fyrir skátaflokka en þar er svefnpláss fyrir 6 manns í rúmum en þar að auki eru nokkrar dýnur. Í skálnum er eldhúskrókur og borðpláss.
 
-verðskrá:
+## Verðskrá
 
-Yfir helgi 25.000kr.
+Helgarleiga: 25.000kr.
 
-Yfir helgi fyrir skáta 20.000kr og annað æskulýðsstarf.
+Helgarleiga fyrir skáta eða annað æskulýðsstarf: 20.000kr.
 
-Dagsgjald 12.500kr
+Dagleiga: 12.500kr.
 
+## Notkunarskilmálar
 
+Búist er við að leigjandi skilji skálann og umhverfi hans eftir í sama ástandi og það var við komu. Ef það þarf að þrífa eða taka til eftir viðburðinn er kostnaður við það á ábyrgð leigjanda.
 
-## Útleiga og afnot
+## Er Kútur laus?
 
-einhvað dót!
-
-## Er Hleiðra laus?
-
-Hafðu samband við starfsmann. 
-skjoldungar@skjoldungar.is eða í síma 821 6802
+Hafðu samband við starfsmann, skjoldungar@skjoldungar.is eða í síma 821 6802
