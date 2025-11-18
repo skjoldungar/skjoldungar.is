@@ -44,7 +44,7 @@ draft: false
 ## Stjórn
 
 -   Aron Gauti Sigurðarson, félagsforingi
--   Signý Kristín Sigurjónsdóttir, gjaldkeri
+-   Signý Kristín Sigurjónsdóttir, gjaldkeri og ritari
 -   Valdís Hrund Hauksdóttir, bryti og áhaldavörður
 -   Andrés Ingi Jónsson, sjálfboðaliðaforingi
 -   Rafnar Friðrikson, dagskráforingi
@@ -52,6 +52,6 @@ draft: false
 -   Herdís Sigurgrímsdóttir, aðstoðarfélagsforingi
 -   Fjölnir Björgvinsson, aðstoðarfélagsforingi
 
-Kría Elínarbur, áheyrnarfulltrúi foringja, mætir á stjórnarfundi en er ekki í stjórn.
+Kría Elínarbur er áheyrnarfulltrúi foringja.
 
 {{< /grid >}}
