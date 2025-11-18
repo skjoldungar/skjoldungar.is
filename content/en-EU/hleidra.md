@@ -1,5 +1,8 @@
 ---
 title: "Hleiðra"
+subtitle: "Skjöldungar's scout cabin at Hafravatn."
+herosize: "lg"
+background: "/img/backgrounds/hleidra.jpg"
 date: 2024-10-21T00:48:03Z
 translationKey: "hleidra"
 draft: false
