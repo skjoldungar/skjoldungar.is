@@ -1,6 +1,6 @@
 ---
 title: "Kútur"
-subtitle: "Skátaskóli Skjöldunga á Hellisheiði."
+subtitle: "Skátaskáli Skjöldunga á Hellisheiði."
 herosize: "lg"
 background: "/img/backgrounds/kutur.jpg"
 date: 2024-10-21T00:48:01Z
