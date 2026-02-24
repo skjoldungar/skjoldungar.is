@@ -12,7 +12,7 @@ draft: false
 
 Námskeiðin byggja á mikilli útiveru og meðal viðfangsefna eru náttúruskoðun, skátadulmál, útieldun, skátaleikir, og margt fleira spennandi og skemmtilegt.
 
-Skráning á námskeið fyrir árið 2026 hefur ekki hafist enn, og dagsetningar námskeiða ekki ákveðnar enn, en skráningu má finna þegar hún opnar á [Abler Síðu Skjöldungar](https://www.sportabler.com/shop/skjoldungar)
+Skráning á námskeið fyrir árið 2026 hefur ekki hafist enn, og dagsetningar námskeiða ekki ákveðnar enn, en skráningu má finna þegar hún opnar á [Abler Síðu Skjöldungar](https://www.sportabler.com/shop/skjoldungar).
 
 Til viðmiðs þá voru námskeið á árinu 2025 dagsett þannig:
 
