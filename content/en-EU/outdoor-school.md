@@ -8,13 +8,13 @@ translationKey: "outdoor-school"
 draft: false
 ---
 
-Registrations are open for Skjöldungar's outdoors school! The outdoors school is an adventurous and exciting summer camp for kids from the ages of 8-12 years old.
-
-[https://www.sportabler.com/shop/skjoldungar](https://www.sportabler.com/shop/skjoldungar)
+Skjöldungar's outdoors school is an adventurous and exciting summer camp for kids from the ages of 8-12 years old.
 
 The camp is scheduled with a lot of outdoor activity with primary areas of focus being nature exploration, scout ciphers, outdoor cooking, scout games, and lots more fun and exciting activities.
 
-The following camps have been scheduled:
+Registration for the camp for the year 2026 have not been opened yet, and available dates yet to be decided, but once registrations open they will be available on [Skjöldungar's Abler page](https://www.sportabler.com/shop/skjoldungar).
+
+For reference, the available dates from the previous year were as follows:
 
 {{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8" >}}
 
