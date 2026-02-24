@@ -3,18 +3,18 @@ title: "Útilífsskólinn"
 subtitle: "Ævintýralegt sumarnámskeið utandyra fyrir krakka á öllum aldri!"
 background: "/img/backgrounds/3cd34e83-a7cb-4f43-91db-1bf38b023f20.jpg"
 herosize: "lg"
-date: 2024-10-19T21:58:47Z
+date: 2026-02-24T21:58:47Z
 translationKey: "outdoor-school"
 draft: false
 ---
 
-Það er opið fyrir skráningu í Útilífsskóla Skjöldunga! Skemmtilegt sumarnámskeið fyrir krakka á aldrinum 8-12 ára. 
+Útilífsskóli Skjöldunga er skemmtilegt sumarnámskeið fyrir krakka á aldrinum 8-12 ára.
 
-[https://www.sportabler.com/shop/skjoldungar](https://www.sportabler.com/shop/skjoldungar)
+Námskeiðin byggja á mikilli útiveru og meðal viðfangsefna eru náttúruskoðun, skátadulmál, útieldun, skátaleikir, og margt fleira spennandi og skemmtilegt.
 
-Námskeiðin byggja á mikilli útiveru og meðal viðfangsefna eru náttúruskoðun, skátadulmál, útieldun, skátaleikir og margt fleira spennandi og skemmtilegt.
+Skráning á námskeið fyrir árið 2026 hefur ekki hafist enn, og dagsetningar námskeiða ekki ákveðnar enn, en skráningu má finna þegar hún opnar á [Abler Síðu Skjöldungar](https://www.sportabler.com/shop/skjoldungar)
 
-Eftirfarandi námskeið eru í boði:
+Til viðmiðs þá voru námskeið á árinu 2025 dagsett þannig:
 
 {{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8" >}}
 
