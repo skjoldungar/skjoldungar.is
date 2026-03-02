@@ -44,7 +44,7 @@ Hverjir eru sveitaforingjar? <br /> **Arney er sveitaforingi**
 
 <--->
 
-Hverjir eru aðstoðarsveitaforingjar? <br /> ** Unnsteinn, Guðrún, Herdís, og Hildur eru aðstoðar**
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Unnsteinn, Guðrún, Herdís, og Hildur eru aðstoðar**
 
 {{< /grid >}}
 
