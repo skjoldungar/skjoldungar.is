@@ -24,7 +24,7 @@ Fálkaskátaforingjar vinna í samvinnu með skátunum til þess að skipuleggja
 
 {{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" >}}
 
-Hvenær eru fundir? <br /> **Fundir eru miðvikudaga frá 18-19:30, nema annað sé tekið fram**
+Hvenær eru fundir? <br /> **Fundir eru miðvikudaga frá 18-19:30**
 
 <--->
 
@@ -44,7 +44,7 @@ Hverjir eru sveitaforingjar? <br /> **Franz Halldór er sveitaforingi**
 
 <--->
 
-Hverjir eru aðstoðarsveitaforingjar? <br /> **Bryndís og Tumi eru aðstoðar**
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Tumi og Ása eru aðstoðar**
 
 {{< /grid >}}
 
