@@ -12,25 +12,27 @@ draft: false
 
 ## Drekaskátaforingjar
 
--   Hanna Greta
 -   Arney Sif
+-   Unnsteinn
+-   Herdís
+-   Guðrún
+-   Gígja
 
 <--->
 
 ## Fálkaskátaforingjar
 
--   Valur Kári
+-   Frans Halldór
 -   Tumi
--   Bryndís
+-   Ása
 
 <--->
 
 ## Dróttskátaforingjar
 
--   Laura
 -   Bryndís
 -   Kría
--   Tumi
+-   Laura
 
 <--->
 
