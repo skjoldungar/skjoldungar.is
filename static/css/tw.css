@@ -1145,6 +1145,18 @@ video {
   margin-top: 1px;
 }
 
+.mt-\[2px\] {
+  margin-top: 2px;
+}
+
+.-mb-\[2px\] {
+  margin-bottom: -2px;
+}
+
+.-mb-\[3px\] {
+  margin-bottom: -3px;
+}
+
 .block {
   display: block;
 }
@@ -1211,6 +1223,10 @@ video {
   height: 14rem;
 }
 
+.h-\[15px\] {
+  height: 15px;
+}
+
 .h-\[20rem\] {
   height: 20rem;
 }
@@ -1241,6 +1257,10 @@ video {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-\[15px\] {
+  width: 15px;
 }
 
 .w-full {
@@ -1601,9 +1621,9 @@ nav button:hover {
 }
 
 .link-column a.external {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.125rem;
+  gap: 0.25rem;
 }
 
 iframe {

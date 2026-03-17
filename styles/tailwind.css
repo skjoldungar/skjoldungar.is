@@ -24,7 +24,7 @@ nav button {
 }
 
 .link-column a.external {
-    @apply flex items-center gap-0.5;
+    @apply inline-flex items-center gap-1;
 }
 
 iframe {
