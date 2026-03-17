@@ -24,8 +24,8 @@ aliases:
 
 ## Fálkaskátaforingjar
 
--   Frans Halldór
--   Tumi
+-   Franz Halldór
+-   Gestur Andri
 -   Ása
 
 <--->
