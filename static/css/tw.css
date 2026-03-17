@@ -1388,6 +1388,10 @@ video {
   background-position: center;
 }
 
+.bg-bottom {
+  background-position: bottom;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
