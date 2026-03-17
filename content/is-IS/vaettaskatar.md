@@ -3,7 +3,7 @@ title: "Vættaskátar"
 subtitle: "19 ára og eldri skátar sem eru foringjar yngri skáta, sitja í stjórn Skjöldunga, eða eru í baklandi Skjöldunga."
 herosize: "lg"
 background: "/img/backgrounds/sjalfbodaskatar.jpg"
-date: 2024-10-21T00:37:46Z
+date: 2026-03-17T18:23:46Z
 translationKey: "sjalfbodaskatar"
 draft: false
 aliases:

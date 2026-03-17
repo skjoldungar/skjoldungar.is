@@ -24,10 +24,16 @@
     </div>
 </div>
 
-<div id="hugo-single-content" class="container py-16">
+<div id="hugo-single-content" class="container pt-16">
     <div class="prose max-w-full">
         {{ .Content }}
-    </div>
+    </div>  
+</div>
+
+<div class="container py-16">
+    {{ $t := time.AsTime .Params.Date }}
+    {{ $format := "2006/01/02 15:04 (UTC)" }}
+    <p class="text-gray-700 text-sm">Síðast uppfært {{ $t.Format $format }}</p>
 </div>
 
 {{ end }}
