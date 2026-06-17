@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sölubás</title>
+<style>
+body{
+  font-family:Arial,sans-serif;
+  max-width:760px;
+  margin:auto;
+  padding:16px;
+  background:#fafafa;
+}
+h1{
+  font-size:34px;
+  margin-bottom:12px;
+}
+.product{
+  display:grid;
+  grid-template-columns: 1fr 64px 64px 74px;
+  gap:8px;
+  align-items:center;
+  background:white;
+  padding:10px;
+  margin:8px 0;
+  border-radius:10px;
+  box-shadow:0 1px 4px #ddd;
+}
+.name{
+  font-size:23px;
+  font-weight:bold;
+}
+.price{
+  font-size:17px;
+  font-weight:normal;
+  color:#555;
+}
+button{
+  font-size:30px;
+  padding:12px;
+  border-radius:10px;
+  border:1px solid #bbb;
+  background:#f2f2f2;
+  touch-action: manipulation;
+}
+.plus{
+  background:#d9f7d9;
+}
+.minus{
+  background:#ffdede;
+}
+.count{
+  font-size:30px;
+  text-align:center;
+  font-weight:bold;
+}
+.total{
+  font-size:46px;
+  font-weight:bold;
+  margin:24px 0;
+  padding:18px;
+  background:white;
+  border-radius:10px;
+  box-shadow:0 1px 4px #ddd;
+}
+.reset{
+  width:100%;
+  background:#ddd;
+  margin-top:12px;
+  font-size:24px;
+}
+.summary{
+  background:white;
+  padding:12px;
+  border-radius:10px;
+  box-shadow:0 1px 4px #ddd;
+}
+.summary div{
+  font-size:19px;
+  padding:4px 0;
+}
+</style>
+</head>
+<body>
+
+<h1>Sölubás</h1>
+
+<div id="products"></div>
+
+<div class="total">Samtals: <span id="total">0</span> kr.</div>
+
+<h3>Yfirlit</h3>
+<div id="summary" class="summary">Engin vara valin.</div>
+
+<button class="reset" onclick="resetSale()">Nýr viðskiptavinur / Núllstilla</button>
+
+<script>
+const products = [
+  {name:"Candy floss", price:700, count:0},
+  {name:"Popp", price:600, count:0},
+  {name:"Gos", price:500, count:0},
+  {name:"Kaffi", price:500, count:0},
+  {name:"Kakó", price:500, count:0},
+  {name:"Krap", price:700, count:0},
+  {name:"Capri-Sun", price:300, count:0},
+  {name:"Snuð", price:500, count:0},
+  {name:"Fáni", price:500, count:0}
+];
+
+function renderProducts(){
+  const container = document.getElementById("products");
+  container.innerHTML = products.map((p, i) => `
+    <div class="product">
+      <div class="name">${p.name}<br><span class="price">${p.price} kr.</span></div>
+      <button class="minus" onclick="changeCount(${i}, -1)" aria-label="Fækka ${p.name}">−</button>
+      <button class="plus" onclick="changeCount(${i}, 1)" aria-label="Bæta við ${p.name}">+</button>
+      <div class="count" id="count-${i}">${p.count}</div>
+    </div>
+  `).join("");
+}
+
+function changeCount(index, change){
+  products[index].count += change;
+  if(products[index].count < 0){
+    products[index].count = 0;
+  }
+  update();
+}
+
+function update(){
+  let total = 0;
+  let summaryLines = [];
+
+  products.forEach((p, i) => {
+    total += p.price * p.count;
+    document.getElementById("count-" + i).innerText = p.count;
+
+    if(p.count > 0){
+      summaryLines.push(`<div>${p.count} × ${p.name} = ${p.price * p.count} kr.</div>`);
+    }
+  });
+
+  document.getElementById("total").innerText = total;
+  document.getElementById("summary").innerHTML = summaryLines.length
+    ? summaryLines.join("")
+    : "Engin vara valin.";
+}
+
+function resetSale(){
+  products.forEach(p => p.count = 0);
+  update();
+}
+
+renderProducts();
+update();
+</script>
+
+</body>
+</html>
