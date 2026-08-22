@@ -131,7 +131,7 @@
                     },
                     {
                         "name": "Stjórn & foringjar",
-                        "pageRef": "/is/sjalfbodaskatar",
+                        "pageRef": "/is/vaettaskatar",
                         "weight": 50
                     },
                     {
@@ -165,7 +165,7 @@
         "en": {
             "languageCode": "en-EU",
             "languageName": "English",
-            "title": "Skjöldungar scout troop",
+            "title": "Skjöldungar scout group",
             "weight": 2,
             "contentDir": "content/en-EU",
 
@@ -269,7 +269,7 @@
                 "footer_col3": [
                     {
                         "name": "About Skjöldungar",
-                        "pageRef": "/en/um-skjoldunga",
+                        "pageRef": "/en/about-skjoldungar",
                         "weight": 10
                     },
                     {
@@ -279,17 +279,17 @@
                     },
                     {
                         "name": "History of Skjöldungar",
-                        "pageRef": "/is/history",
+                        "pageRef": "/en/history",
                         "weight": 30
                     },
                     {
                         "name": "Annual plan",
-                        "pageRef": "/is/annual-plan",
+                        "pageRef": "/en/annual-plan",
                         "weight": 40
                     },
                     {
                         "name": "Board and leadership",
-                        "pageRef": "/is/volunteer-scouts",
+                        "pageRef": "/en/vaetta-scouts",
                         "weight": 50
                     },
                     {
