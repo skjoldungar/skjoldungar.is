@@ -7,54 +7,52 @@ date: 2026-03-17T18:23:46Z
 translationKey: "sjalfbodaskatar"
 draft: false
 aliases:
-- vaettaskatar
+- sjalfbodaskatar
 ---
 
 {{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8" >}}
 
 ## Drekaskátaforingjar
 
--   Arney Sif
--   Unnsteinn
--   Herdís
--   Guðrún
--   Gígja
+- Ása
+- Herdís
+- Guðrún
 
 <--->
 
 ## Fálkaskátaforingjar
 
--   Franz Halldór
--   Gestur Andri
--   Ása
+- Franz Halldór
+- Gestur Andri
+- Kría
 
 <--->
 
 ## Dróttskátaforingjar
 
--   Bryndís
--   Kría
--   Laura
+- Arney
+- Laura
+- Sunna
 
 <--->
 
 ## Rekkaskátaforingjar
 
--   Hanna Greta
--   Valur Kári
+- Hanna Greta
+- Valur Kári
 
 <--->
 
 ## Stjórn
 
--   Aron Gauti Sigurðarson, félagsforingi
--   Signý Kristín Sigurjónsdóttir, gjaldkeri og ritari
--   Valdís Hrund Hauksdóttir, bryti og áhaldavörður
--   Andrés Ingi Jónsson, sjálfboðaliðaforingi
--   Rafnar Friðrikson, dagskráforingi
--   Óskar Þór Þráinsson, tengiliður Landsmóts
--   Herdís Sigurgrímsdóttir, aðstoðarfélagsforingi
--   Fjölnir Björgvinsson, aðstoðarfélagsforingi
+- Aron Gauti Sigurðarson, félagsforingi
+- Signý Kristín Sigurjónsdóttir, gjaldkeri og ritari
+- Valdís Hrund Hauksdóttir, bryti og áhaldavörður
+- Andrés Ingi Jónsson, sjálfboðaliðaforingi
+- Rafnar Friðrikson, dagskráforingi
+- Óskar Þór Þráinsson, tengiliður Landsmóts
+- Herdís Sigurgrímsdóttir, aðstoðarfélagsforingi
+- Fjölnir Björgvinsson, aðstoðarfélagsforingi
 
 Kría Elínarbur er áheyrnarfulltrúi foringja.
 

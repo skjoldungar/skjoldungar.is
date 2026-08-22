@@ -44,7 +44,7 @@ Hverjir eru sveitaforingjar? <br /> **Arney, Laura og Sunna eru sveitaforingjar*
 
 {{< /grid >}}
 
-{{< cta href="<https://www.abler.io/shop/skjoldungar>" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
 
 ## Á þinn táningur heima í Dróttskátum?
 

@@ -10,7 +10,7 @@ draft: false
 
 {{< img-section src="/img/group-thumbs/drekaskatar-alt.jpg" alt="Drekaskátakrútt" class="max-h-[23rem]" >}}
 
-## Drekaskátatarfið
+## Drekaskátastarfið
 
 Drekaskátar eru á eru á aldrinum 7-9 ára og er starfslýsingin að "vikulegir fundir í skátasveitinni þar sem unnið er í minni hópum" ([BÍS](https://skatarnir.is/drekaskatar-2/)).
 
@@ -48,7 +48,7 @@ Hverjir eru aðstoðarsveitaforingjar? <br /> **Fjóla og Arló eru aðstoðarsv
 
 {{< /grid >}}
 
-{{< cta href="<https://www.abler.io/shop/skjoldungar>" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
 
 ## Á þitt barn heima í Drekaskátum?
 
