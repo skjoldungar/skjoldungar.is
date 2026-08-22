@@ -10,7 +10,7 @@ draft: false
 
 
 ## About the cabin
-Kútur is the Skjöldungar scout cabin located on Hellisheiði. The cabin is ideal for scout groups and has sleeping space for 6 people in beds, with several additional mattresses. The cabin includes a kitchenette and dining/table space.
+Kútur is the Skjöldungar scout cabin located on Hellisheiði. The cabin is ideal for scout troops and has sleeping space for 6 people in beds, with several additional mattresses. The cabin includes a kitchenette and dining/table space.
 
 ## Price list
 

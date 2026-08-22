@@ -12,11 +12,11 @@ draft: false
 
 ## The Falcon scout programme
 
-Falcon scouts are 10-12 years old, and the programme is described as "weekly work in the smaller group, with patrol meetings held regularly" ([BÍS](https://skatarnir.is/falkaskatar-2/), Icelandic).
+Falcon scouts are 10-12 years old, and the programme is described as "weekly work in the troop, with patrol meetings held regularly" ([BÍS](https://skatarnir.is/falkaskatar-2/), Icelandic).
 
-The Falcon scout programme covers, among other things, the scout standing on their own two feet and having a strong say in what the group and the patrol take on; learning to work in a group and to carry responsibility; a growing awareness of one's own body and abilities and consideration for one's peers; learning to prepare for the outdoors and to give first aid; and creating things out in nature.
+The Falcon scout programme covers, among other things, the scout standing on their own two feet and having a strong say in the choice of projects for themselves and for the patrol; learning to work with others and to carry responsibility; a growing awareness of one's own body and abilities and consideration for one's peers; learning to prepare for the outdoors and to give first aid; and creating things out in nature.
 
-Falcon scout leaders work together with the scouts to plan their meetings. The aim is for the scouts to be free to decide what they want to do and for the leaders to make it happen, within reasonable limits. We do this through group leader meetings, where the leaders of each group explain their plans for the next three meetings to the patrol leaders.
+Falcon scout leaders work together with the scouts to plan their meetings. The aim is for the scouts to be free to decide what they want to do and for the leaders to make it happen, within reasonable limits. We do this through troop leader meetings, where the leaders of each troop explain their plans for the next three meetings to the patrol leaders.
 
 {{< /img-section >}}
 
