@@ -3,7 +3,7 @@ title: "Fálkaskátar"
 subtitle: "\"Við erum Fálkaskátar, því ekki þið!?\" Fálkaskátar eru á aldrinum 10-12 ára og lífið í skátapartýinu!"
 herosize: "lg"
 background: "/img/backgrounds/falkaskatar.jpg"
-date: 2024-10-21T00:37:30Z
+date: 2026-08-22T21:06:24Z
 translationKey: "falkaskatar"
 draft: false
 ---
@@ -24,7 +24,7 @@ Fálkaskátaforingjar vinna í samvinnu með skátunum til þess að skipuleggja
 
 {{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" >}}
 
-Hvenær eru fundir? <br /> **Fundir eru miðvikudaga frá 18-19:30**
+Hvenær eru fundir? <br /> **Fundir eru miðvikudaga frá 17:30-19:30, nema annað sé tekið fram**
 
 <--->
 
@@ -40,15 +40,15 @@ Má koma og prófa? <br /> **Að sjálfsögðu, en beðið er um að það sé l
 
 <--->
 
-Hverjir eru sveitaforingjar? <br /> **Franz Halldór er sveitaforingi**
+Hverjir eru sveitaforingjar? <br /> **Franz Halldór, Gestur og Kría eru sveitarforingjar**
 
 <--->
 
-Hverjir eru aðstoðarsveitaforingjar? <br /> **Tumi og Ása eru aðstoðar**
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Rán og Júlía eru aðstoðarsveitaforingjar**
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+{{< cta href="<https://www.abler.io/shop/skjoldungar>" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
 
 ## Á þitt barn heima í Fálkaskátum?
 

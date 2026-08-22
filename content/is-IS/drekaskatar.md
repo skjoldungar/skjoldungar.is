@@ -3,7 +3,7 @@ title: "Drekaskátar"
 subtitle: "\"Við erum Drekaskátar, því ekki þið!?\" Drekaskátar eru á aldrinum 7-9 ára og eru skátakrútt allra félaga"
 herosize: "lg"
 background: "/img/backgrounds/drekaskatar.jpg"
-date: 2024-10-21T00:37:24Z
+date: 2026-08-22T21:06:24Z
 translationKey: "drekaskatar"
 draft: false
 ---
@@ -40,15 +40,15 @@ Má koma og prófa? <br /> **Að sjálfsögðu, en beðið er um að það sé l
 
 <--->
 
-Hverjir eru sveitaforingjar? <br /> **Arney er sveitaforingi**
+Hverjir eru sveitaforingjar? <br /> **Ása, Herdís og Guðrún eru sveitaforingjar**
 
 <--->
 
-Hverjir eru aðstoðarsveitaforingjar? <br /> **Unnsteinn, Guðrún, Herdís, og Hildur eru aðstoðar**
+Hverjir eru aðstoðarsveitaforingjar? <br /> **Fjóla og Arló eru aðstoðarsveitaforingjar**
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+{{< cta href="<https://www.abler.io/shop/skjoldungar>" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
 
 ## Á þitt barn heima í Drekaskátum?
 

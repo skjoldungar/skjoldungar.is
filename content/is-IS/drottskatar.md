@@ -3,7 +3,7 @@ title: "Dróttskátar"
 subtitle: "\"Við erum Dróttskátar, því ekki þið!?\" Dróttskátar eru á aldrinum 13-15 og eitt hressasta aldursbilið."
 herosize: "lg"
 background: "/img/backgrounds/drottskatar.jpg"
-date: 2024-10-21T00:37:35Z
+date: 2026-08-22T21:06:24Z
 translationKey: "drottskatar"
 draft: false
 ---
@@ -24,7 +24,7 @@ Dróttskátaforingjar vinna í samvinnu með skátunum til þess að skipuleggja
 
 {{< grid class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" >}}
 
-Hvenær eru fundir? <br /> **Fundir eru fimmtudaga frá 19-21, nema annað sé tekið fram**
+Hvenær eru fundir? <br /> **Fundir eru þriðjudaga frá 19-21, nema annað sé tekið fram**
 
 <--->
 
@@ -40,15 +40,11 @@ Má koma og prófa? <br /> **Að sjálfsögðu, en beðið er um að það sé l
 
 <--->
 
-Hverjir eru sveitaforingjar? <br /> **Bryndís er sveitaforingi**
-
-<--->
-
-Hverjir eru aðstoðarsveitaforingjar? <br /> **Kría og Laura eru aðstoðar**
+Hverjir eru sveitaforingjar? <br /> **Arney, Laura og Sunna eru sveitaforingjar**
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+{{< cta href="<https://www.abler.io/shop/skjoldungar>" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
 
 ## Á þinn táningur heima í Dróttskátum?
 

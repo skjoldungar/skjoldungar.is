@@ -1,8 +1,8 @@
 ---
 title: "Starfsáætlun"
-subtitle: "Fyrir starfsárið 2024-2025"
+subtitle: "Fyrir starfsárið 2026-2027"
 background: "/img/hopmyndir/thorsmork-opinbera.jpg"
-date: 2024-10-19T21:58:31Z
+date: 2026-08-22T21:06:24Z
 translationKey: "annual-plan"
 draft: false
 ---
@@ -13,39 +13,39 @@ draft: false
 
 **Drekaskátar 7 – 9 ára**
 
-Þriðjudagar 18:30 – 19:30
+Mánudagar 17:30 – 18:30
 
-Foringjar: Hanna og Arney
+Foringjar: Ása, Herdís og Guðrún
 
 <--->
 
 **Fálkaskátar 10 – 12 ára**
 
-Miðvikudagar 18:00 – 19:30
+Miðvikudagar 17:30 – 19:30
 
-Foringjar: Valur, Kjartan, og Tumi
+Foringjar: Franz, Gestur og Kría
 
 <--->
 
 **Dróttskátar 13 – 15 ára**
 
-Fimmtudagar 19:00 – 21:00
+Þriðjudagar 19:00 – 21:00
 
-Foringjar: Laura, Bryndís, Kjartan, og Tumi
+Foringjar: Arney, Laura og Sunna
 
 <--->
 
 **Rekkar 16 – 18 ára**
 
-Mánudagar 20:00 – 22:00
+Verða auglýstir síðar.
 
-Foringjar: Hanna
+Foringjar: Hanna og Valur
 
 <--->
 
 **Fjölskylduskátar 5 – 7 ára** + foreldrar
 
-Í undirbúningi 2024-2025
+Ekki virkt eins og er
 
 Foringjar: Sjálfboðaliðar óskast
 
@@ -53,20 +53,18 @@ Foringjar: Sjálfboðaliðar óskast
 
 ## Helstu viðburðir starfsársins
 
--   9\. sept vetrarstarf hefst
--   Sep – Foreldrafundur og kynning á vetrarstarfi
--   Okt – Aðalfundur Skjöldunga 2.okt
--   Okt – Félagsútilega Skjöldunga í Básum Goðalandi (Þórsmörk) 11.-13.október
--   Nóv – Sveitarútilegur/innilegur
--   Des – Jólafrí frá 2.viku
--   Jan – Vetrarskátamót
--   Apr – Sveitarútilegur/innilegur
--   Apr – Skátaþing
--   Sumardagurinn fyrsti
--   Laugarnes á ljúfum nótum
--   Maí/jún – Félagsútilega
--   Jún – Drekaskátamót
--   Jún – Aldursbilamót Dróttskáta
--   Júl – Aldursbilamót Rekka og Róver
--   Ágú – Aldursbilamót Fálkaskáta
--   Sumar – Útilífsskóli Skjöldunga
+- 31\. ágúst – Vetrarstarf hefst
+- Sep – Foreldrafundur og kynning á vetrarstarfi
+- Sep – Aðalfundur Skjöldunga
+- Okt – Félagsútilega Skjöldunga
+- Nóv – Sveitarútilegur/innilegur
+- Des – Jólafrí frá 2.viku
+- Jan – Vetrarmót Reykjavíkurskáta
+- Apr – Sveitarútilegur/innilegur
+- Apr – Skátaþing
+- Sumardagurinn fyrsti
+- Maí/jún – Afmælisútilega Skjöldunga
+- Jún – Drekaskátamót
+- Jún – Skátasumarið á Úlfljótsvatni
+- Júl – Aldursbilamót Rekka og Róver
+- Sumar – Útilífsskóli Skjöldunga
