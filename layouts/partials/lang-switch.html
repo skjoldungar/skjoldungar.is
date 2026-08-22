@@ -16,9 +16,9 @@
 <a href="{{ $translation.RelPermalink }}" class="flex gap-1 items-center">
     {{ .LanguageName }}
     {{ if eq .Lang "en" }}
-    <img src="/img/flags/eu.png" class="-mb-[1px]" />
+    <img src="/img/flags/eu.png" alt="" class="-mb-[1px]" />
     {{ else }}
-    <img src="/img/flags/{{ .Lang }}.png" class="-mb-[1px]" />
+    <img src="/img/flags/{{ .Lang }}.png" alt="" class="-mb-[1px]" />
     {{ end }}
 </a>
 {{ end }}

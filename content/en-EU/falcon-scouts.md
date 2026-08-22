@@ -8,7 +8,7 @@ translationKey: "falkaskatar"
 draft: false
 ---
 
-{{< img-section src="/img/group-thumbs/falkaskatar-thorsmork-hadegi.jpg" alt="lalala" >}}
+{{< img-section src="/img/group-thumbs/falkaskatar-thorsmork-hadegi.jpg" alt="Two falcon scouts in winter coats and hats, one wearing a yellow scout scarf, helping themselves to hot dogs at a lunch break by the cabin" >}}
 
 ## The Falcon scout programme
 
@@ -48,7 +48,7 @@ Who are the assistant patrol leaders? <br /> **Rán and Júlía are the assistan
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Register with Skjöldungar" class="pt-16" >}}
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="true" label="Register with Skjöldungar" class="pt-16" >}}
 
 ## Does your child belong with the Falcon scouts?
 

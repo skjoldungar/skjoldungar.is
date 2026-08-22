@@ -8,7 +8,7 @@ translationKey: "drottskatar"
 draft: false
 ---
 
-{{< img-section src="/img/hopmyndir/tindur-thorsmork.jpg" alt="lalala" >}}
+{{< img-section src="/img/hopmyndir/tindur-thorsmork.jpg" alt="Hópur skáta og foringja stendur á klettatindi í Þórsmörk með fjöllin og dalinn í baksýn" >}}
 
 ## Dróttskátastarfið
 
@@ -44,7 +44,7 @@ Hverjir eru sveitaforingjar? <br /> **Arney, Laura og Sunna eru sveitaforingjar*
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="true" label="Skráning í Skjöldunga" class="pt-16" >}}
 
 ## Á þinn táningur heima í Dróttskátum?
 

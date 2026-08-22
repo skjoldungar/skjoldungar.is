@@ -48,7 +48,7 @@ Who are the assistant patrol leaders? <br /> **Fjóla and Arló are the assistan
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Register with Skjöldungar" class="pt-16" >}}
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="true" label="Register with Skjöldungar" class="pt-16" >}}
 
 ## Does your child belong with the Dragon scouts?
 

@@ -8,7 +8,7 @@ translationKey: "drottskatar"
 draft: false
 ---
 
-{{< img-section src="/img/hopmyndir/tindur-thorsmork.jpg" alt="lalala" >}}
+{{< img-section src="/img/hopmyndir/tindur-thorsmork.jpg" alt="A group of scouts and leaders standing on a rocky summit in Þórsmörk, with the valley and mountains behind them" >}}
 
 ## The Drótt-scout programme
 
@@ -44,7 +44,7 @@ Who are the patrol leaders? <br /> **Arney, Laura and Sunna are the patrol leade
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Register with Skjöldungar" class="pt-16" >}}
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="true" label="Register with Skjöldungar" class="pt-16" >}}
 
 ## Does your teenager belong with the Drótt-scouts?
 

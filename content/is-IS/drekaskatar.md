@@ -48,7 +48,7 @@ Hverjir eru aðstoðarsveitaforingjar? <br /> **Fjóla og Arló eru aðstoðarsv
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="true" label="Skráning í Skjöldunga" class="pt-16" >}}
 
 ## Á þitt barn heima í Drekaskátum?
 

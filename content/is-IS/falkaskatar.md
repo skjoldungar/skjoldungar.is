@@ -8,7 +8,7 @@ translationKey: "falkaskatar"
 draft: false
 ---
 
-{{< img-section src="/img/group-thumbs/falkaskatar-thorsmork-hadegi.jpg" alt="lalala" >}}
+{{< img-section src="/img/group-thumbs/falkaskatar-thorsmork-hadegi.jpg" alt="Tveir fálkaskátar í úlpum og húfum, annar með gulan skátaklút, fá sér pylsur í hádegishléi við skálann" >}}
 
 ## Fálkaskátastarfið
 
@@ -48,7 +48,7 @@ Hverjir eru aðstoðarsveitaforingjar? <br /> **Rán og Júlía eru aðstoðarsv
 
 {{< /grid >}}
 
-{{< cta href="https://www.abler.io/shop/skjoldungar" external="jamms" label="Skráning í Skjöldunga" class="pt-16" >}}
+{{< cta href="https://www.abler.io/shop/skjoldungar" external="true" label="Skráning í Skjöldunga" class="pt-16" >}}
 
 ## Á þitt barn heima í Fálkaskátum?
 
