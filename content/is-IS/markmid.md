@@ -1,6 +1,6 @@
 ---
 title: "Markmið skátastarfsins"
-subtitle: "Stuðlum að abyrgum þroska ungmenna."
+subtitle: "Stuðlum að ábyrgum þroska ungmenna."
 herosize: "lg"
 background: "/img/backgrounds/landsmot_kvoldvaka.jpg"
 date: 2024-10-21T00:44:42Z
