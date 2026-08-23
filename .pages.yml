@@ -1,0 +1,7 @@
+media:
+  - name: images
+    label: Images
+    input: static/img
+    output: /img
+    rename: safe
+    extensions: [png, jpg, webp]
