@@ -6,58 +6,6 @@ media:
     rename: safe
     extensions: [png, jpg, webp]
 
-components:
-  page-fields:
-    type: object
-    label: Page
-    fields:
-      - name: title
-        type: string
-        required: true
-        options:
-          maxlength: 120
-      - name: subtitle
-        label: Subtitle
-        type: text
-        description: Shown under the title in the page header.
-      - name: background
-        label: Background image
-        type: image
-        options:
-          media: images
-      - name: herosize
-        label: Large hero
-        type: select
-        options:
-          values:
-            - name: lg
-              label: "Yes (tall header)"
-      - name: translationKey
-        label: Translation key
-        type: string
-        required: true
-        description: Must match the translation key of the corresponding page in the other language, so the language switcher can link them together.
-      - name: date
-        type: date
-        required: true
-        options:
-          time: true
-          format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
-      - name: draft
-        type: boolean
-        default: false
-        description: Draft pages are excluded from the published site.
-      - name: aliases
-        label: URL aliases
-        type: string
-        list: true
-        description: Old URL paths that should redirect to this page.
-      - name: body
-        label: Content
-        type: rich-text
-        options:
-          media: images
-
 content:
   - name: pages
     label: Pages
@@ -72,7 +20,52 @@ content:
         filename: "{primary}.md"
         exclude: ["test.md"]
         fields:
-          - component: page-fields
+          - name: title
+            type: string
+            required: true
+            options:
+              maxlength: 120
+          - name: subtitle
+            label: Subtitle
+            type: text
+            description: Shown under the title in the page header.
+          - name: background
+            label: Background image
+            type: image
+            options:
+              media: images
+          - name: herosize
+            label: Large hero
+            type: select
+            options:
+              values:
+                - name: lg
+                  label: "Yes (tall header)"
+          - name: translationKey
+            label: Translation key
+            type: string
+            required: true
+            description: Must match the translationKey of the corresponding page in the other language, so the language switcher can link them together.
+          - name: date
+            type: date
+            required: true
+            options:
+              time: true
+              format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
+          - name: draft
+            type: boolean
+            default: false
+            description: Draft pages are excluded from the published site.
+          - name: aliases
+            label: URL aliases
+            type: string
+            list: true
+            description: Old URL paths that should redirect to this page.
+          - name: body
+            label: Content
+            type: rich-text
+            options:
+              media: images
         view:
           primary: title
           fields: [title, translationKey, draft, date]
@@ -91,7 +84,52 @@ content:
         filename: "{primary}.md"
         exclude: ["test.md"]
         fields:
-          - component: page-fields
+          - name: title
+            type: string
+            required: true
+            options:
+              maxlength: 120
+          - name: subtitle
+            label: Subtitle
+            type: text
+            description: Shown under the title in the page header.
+          - name: background
+            label: Background image
+            type: image
+            options:
+              media: images
+          - name: herosize
+            label: Large hero
+            type: select
+            options:
+              values:
+                - name: lg
+                  label: "Yes (tall header)"
+          - name: translationKey
+            label: Translation key
+            type: string
+            required: true
+            description: Must match the translationKey of the corresponding page in the other language, so the language switcher can link them together.
+          - name: date
+            type: date
+            required: true
+            options:
+              time: true
+              format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
+          - name: draft
+            type: boolean
+            default: false
+            description: Draft pages are excluded from the published site.
+          - name: aliases
+            label: URL aliases
+            type: string
+            list: true
+            description: Old URL paths that should redirect to this page.
+          - name: body
+            label: Content
+            type: rich-text
+            options:
+              media: images
         view:
           primary: title
           fields: [title, translationKey, draft, date]
@@ -101,80 +139,81 @@ content:
             sort: title
             order: asc
 
-#  - name: song-library
-#    label: Song library
-#    type: group
-#    items:
-#      - name: songs-is
-#        label: "Söngvasafn (íslenska)"
-#        type: collection
-#        path: content/is-IS/songvasafn
-#        format: yaml-frontmatter
-#        filename: "{primary}.md"
-#        exclude: ["test.md"]
-#        fields:
-#          - name: title
-#            type: string
-#            required: true
-#          - name: translationKey
-#            label: Translation key
-#            type: string
-#            required: true
-#            description: Must match the translationKey of the corresponding song in the other language.
-#          - name: date
-#            type: date
-#            required: true
-#            options:
-#              time: true
-#              format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
-#          - name: draft
-#            type: boolean
-#            default: false
-#          - name: body
-#            label: Lyrics
-#            type: rich-text
-#        view:
-#          primary: title
-#          fields: [title, translationKey, draft]
-#          sort: [title, date]
-#          search: [title]
-#          default:
-#            sort: title
-#            order: asc
-#
-#      - name: songs-en
-#        label: "Song library (English)"
-#        type: collection
-#        path: content/en-EU/song-library
-#        format: yaml-frontmatter
-#        filename: "{primary}.md"
-#        exclude: ["test.md"]
-#        fields:
-#          - name: title
-#            type: string
-#            required: true
-#          - name: translationKey
-#            label: Translation key
-#            type: string
-#            required: true
-#            description: Must match the translationKey of the corresponding song in the other language.
-#          - name: date
-#            type: date
-#            required: true
-#            options:
-#              time: true
-#              format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
-#          - name: draft
-#            type: boolean
-#            default: false
-#          - name: body
-#            label: Lyrics
-#            type: rich-text
-#        view:
-#          primary: title
-#          fields: [title, translationKey, draft]
-#          sort: [title, date]
-#          search: [title]
-#          default:
-#            sort: title
-#            order: asc
+  # Song library is still being worked out on the Hugo side — leave disabled until that's settled.
+  # - name: song-library
+  #   label: Song library
+  #   type: group
+  #   items:
+  #     - name: songs-is
+  #       label: "Söngvasafn (íslenska)"
+  #       type: collection
+  #       path: content/is-IS/songvasafn
+  #       format: yaml-frontmatter
+  #       filename: "{primary}.md"
+  #       exclude: ["test.md"]
+  #       fields:
+  #         - name: title
+  #           type: string
+  #           required: true
+  #         - name: translationKey
+  #           label: Translation key
+  #           type: string
+  #           required: true
+  #           description: Must match the translationKey of the corresponding song in the other language.
+  #         - name: date
+  #           type: date
+  #           required: true
+  #           options:
+  #             time: true
+  #             format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
+  #         - name: draft
+  #           type: boolean
+  #           default: false
+  #         - name: body
+  #           label: Lyrics
+  #           type: rich-text
+  #       view:
+  #         primary: title
+  #         fields: [title, translationKey, draft]
+  #         sort: [title, date]
+  #         search: [title]
+  #         default:
+  #           sort: title
+  #           order: asc
+  #
+  #     - name: songs-en
+  #       label: "Song library (English)"
+  #       type: collection
+  #       path: content/en-EU/song-library
+  #       format: yaml-frontmatter
+  #       filename: "{primary}.md"
+  #       exclude: ["test.md"]
+  #       fields:
+  #         - name: title
+  #           type: string
+  #           required: true
+  #         - name: translationKey
+  #           label: Translation key
+  #           type: string
+  #           required: true
+  #           description: Must match the translationKey of the corresponding song in the other language.
+  #         - name: date
+  #           type: date
+  #           required: true
+  #           options:
+  #             time: true
+  #             format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
+  #         - name: draft
+  #           type: boolean
+  #           default: false
+  #         - name: body
+  #           label: Lyrics
+  #           type: rich-text
+  #       view:
+  #         primary: title
+  #         fields: [title, translationKey, draft]
+  #         sort: [title, date]
+  #         search: [title]
+  #         default:
+  #           sort: title
+  #           order: asc
