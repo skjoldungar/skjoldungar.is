@@ -22,7 +22,7 @@ Anyone interested in standing for the board can send their nomination to <a href
 The board has proposed an amendment to the byelaws. The current byelaws and the draft amendment are available here (in Icelandic):
 
 * [Skjöldungar byelaws](/is/log-skjoldunga)
-* <a href="/docs/2026-09-30/Lagabreytingatillaga_fyrir_adalfund_2026.pdf" target="_blank">Proposed bylaw amendment for the 2026 AGM (PDF)</a>
+* <a href="/docs/2026-09-30/Lagabreytingatillaga_fyrir_adalfund_2026.pdf" target="_blank">Lagabreytingatillaga_fyrir_adalfund_2026.pdf</a>
 
 Parents of scouts in the group and other supporters are especially welcome!
 
