@@ -1,7 +1,7 @@
 ---
 title: "Aðalfundur Skjöldunga 2026"
 subtitle: "Fundarboð"
-date: 2024-10-19T19:12:36Z
+date: 2026-10-15T20:09:36Z
 translationKey: "general-meeting-2026"
 draft: false
 ---
@@ -23,6 +23,10 @@ Stjórn hefur lagt fram tillögu að lagabreytingu á lögum félagsins. Núgild
 
 * [Lög Skjöldunga](/is/log-skjoldunga)
 * <a href="/docs/2026-09-30/Lagabreytingatillaga_fyrir_adalfund_2026.pdf" target="_blank">Lagabreytingatillaga_fyrir_adalfund_2026.pdf</a>
+
+Þann 2026-10-15 kl. 20:09 var síða þessi uppfærð til að hlekkja á ársskýrslu Skjöldunga fyrir 2025-2026:
+
+* <a href="/docs/2026-10-15/Ársskýrsla Skjöldunga 2025-2026.pdf" target="_blank">Ársskýrsla Skjöldunga 2025-2026.pdf</a>
 
 Foreldrar skáta í félaginu og aðrir velunnarar eru sérstaklega velkomnir!
 
