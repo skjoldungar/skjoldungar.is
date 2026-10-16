@@ -26,7 +26,7 @@ The board has proposed an amendment to the byelaws. The current byelaws and the 
 
 On the 2026-10-15 at 20:09 o'clock, this page was edited to link to the annual report of Skjöldungar for 2025-2026 (in Icelandic):
 
-* <a href="https://docs.google.com/document/d/11gAUv9Wu9Arh_bw1YSMd4fknXNNYIsEu/edit?usp=sharing&ouid=107464384349569066788&rtpof=true&sd=true" target="_blank">Ársskýrsla Skjöldunga 2025-2026</a>
+* <a href="/docs/2026-10-16/Ársskýrsla Skjöldunga 2025-2026.pdf" target="_blank">Ársskýrsla Skjöldunga 2025-2026.pdf</a>
 
 Parents of scouts in the group and other supporters are especially welcome!
 

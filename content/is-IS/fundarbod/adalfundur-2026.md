@@ -26,7 +26,7 @@ Stjórn hefur lagt fram tillögu að lagabreytingu á lögum félagsins. Núgild
 
 Þann 2026-10-15 kl. 20:09 var síða þessi uppfærð til að hlekkja á ársskýrslu Skjöldunga fyrir 2025-2026:
 
-* <a href="https://docs.google.com/document/d/11gAUv9Wu9Arh_bw1YSMd4fknXNNYIsEu/edit?usp=sharing&ouid=107464384349569066788&rtpof=true&sd=true" target="_blank">Ársskýrsla Skjöldunga 2025-2026</a>
+* <a href="/docs/2026-10-16/Ársskýrsla Skjöldunga 2025-2026.pdf" target="_blank">Ársskýrsla Skjöldunga 2025-2026.pdf</a>
 
 Foreldrar skáta í félaginu og aðrir velunnarar eru sérstaklega velkomnir!
 
