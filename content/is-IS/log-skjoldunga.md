@@ -75,7 +75,9 @@ Lögum þessum má breyta á aðalfundi séu 2/3 hlutar atkvæðisbærra fundarm
 
 **13\. gr.** <br/>
 *Slit félagsins* <br/> 
-Hætti félagið störfum skal Skátasambandi Reykjavíkur falin umsjá eigna þess. Skulu þær þá nýttar til æskulýðsstarfsemi í samráði við stjórn Bandalags íslenskra skáta þar til skátastarf er endurvakið á starfssvæðinu. 
+Hætti félagið störfum skal Skátasambandi Reykjavíkur falin umsjá eigna þess. Skulu þær þá nýttar til æskulýðsstarfsemi í samráði við stjórn Bandalags íslenskra skáta þar til skátastarf er endurvakið á starfssvæðinu.
+
+<hr />
 
 Lög þessi öðluðust fyrst gildi sunnudaginn 5. okt. 1969 er félagsforingi lýsti því yfir. Þeim var síðast breytt á aðalfundi félagsins 15. október 2026.
 
