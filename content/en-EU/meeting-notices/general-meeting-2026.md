@@ -1,7 +1,7 @@
 ---
 title: "Skjöldungar general meeting 2026"
 subtitle: "Meeting notice"
-date: 2026-10-15T20:09:36Z
+date: 2026-10-16T14:47:36Z
 translationKey: "general-meeting-2026"
 draft: false
 ---
@@ -24,10 +24,17 @@ The board has proposed an amendment to the byelaws. The current byelaws and the 
 * [Skjöldungar byelaws](/is/log-skjoldunga)
 * <a href="/docs/2026-09-30/Lagabreytingatillaga_fyrir_adalfund_2026.pdf" target="_blank">Lagabreytingatillaga_fyrir_adalfund_2026.pdf</a>
 
-On the 2026-10-15 at 20:09 o'clock, this page was edited to link to the annual report of Skjöldungar for 2025-2026 (in Icelandic):
-
-* <a href="/docs/2026-10-16/Ársskýrsla Skjöldunga 2025-2026.pdf" target="_blank">Ársskýrsla Skjöldunga 2025-2026.pdf</a>
-
 Parents of scouts in the group and other supporters are especially welcome!
 
 Yours in Scouting
+
+
+## Post-meeting materials
+
+On October 16th at 14:47 o'clock the page was edited to link to the following materials (in Icelandic): 
+
+* <a href="/docs/2026-10-16/Ársskýrsla Skjöldunga 2025-2026.pdf" target="_blank">Ársskýrsla Skjöldunga 2025-2026.pdf</a>
+* <a href="/docs/2026-10-16/Aðalfundur Skjöldunga 2026 - fundargerð.pdf" target="_blank">Aðalfundur Skjöldunga 2026 - fundargerð</a>
+* <a href="/docs/2026-10-16/Lög skátafélagsins Skjöldunga.pdf" target="_blank">Lög skátafélagsins Skjöldunga.pdf</a>
+
+The document <a href="/docs/2026-10-16/Lög skátafélagsins Skjöldunga.pdf" target="_blank">Lög skátafélagsins Skjöldunga.pdf</a> is a copy of the new byelaws that took effect following the approval of the proposed amendments to the previous byelaws.
